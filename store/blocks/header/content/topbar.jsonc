@@ -1,0 +1,59 @@
+{
+  "flex-layout.row#topbar":{
+    "children":[
+      "slider-layout#topbar"
+    ],
+    "props":{
+      "blockClass":["centralizer","topbar"]
+    },
+    "title": "Row - Topbar"
+  },
+
+  "slider-layout#topbar": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "autoplay": {
+        "timeout": 3500
+      },
+      "infinite": true,
+      "showPaginationDots": "never",
+      "showNavigationArrows": "never",
+      "blockClass": "topbar"
+    },
+    "children": ["rich-text#topbar_1", "rich-text#topbar_2", "rich-text#topbar_3"],
+    "title": "Slider - Topbar"
+  },
+
+  "rich-text#topbar_1":{
+    "props":{
+      "text":"[Produtos](/) exclusivos com entrega rápida em até 12x no cartão",
+      "blockClass":"topbar-info",
+      "textPosition":"CENTER",
+      "textAlignment":"CENTER"
+    },
+    "title": "Text 01 - Topbar"
+  },
+  "rich-text#topbar_2":{
+    "props":{
+      "text":"[Produtos](/) exclusivos com entrega rápida em até 12x no cartão",
+      "blockClass":"topbar-info",
+      "textPosition":"CENTER",
+      "textAlignment":"CENTER"
+    },
+    "title": "Text 02 - Topbar"
+  },
+  "rich-text#topbar_3":{
+    "props":{
+      "text":"[Produtos](/) exclusivos com entrega rápida em até 12x no cartão",
+      "blockClass":"topbar-info",
+      "textPosition":"CENTER",
+      "textAlignment":"CENTER"
+    },
+    "title": "Text 03 - Topbar"
+  }
+
+}

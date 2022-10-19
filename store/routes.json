@@ -1,0 +1,11 @@
+{
+  "store.custom#contact-us": {
+    "path": "/contato"
+  },
+  "store.custom#template-institucional":{
+    "path":"/institucional"
+  },
+  "store.storelocator":{
+    "path": "/maxazria/tiendas"
+  }
+}

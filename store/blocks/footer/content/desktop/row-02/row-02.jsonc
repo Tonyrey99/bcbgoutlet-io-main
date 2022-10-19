@@ -1,0 +1,12 @@
+{
+  "flex-layout.row#desktop-footer-row-02": {
+    "children": ["rich-text#copyright"],
+    "props": {
+      "fullWidth":true,
+      "width":"grow",
+      "horizontalAlign": "left",
+      "preventHorizontalStretch": true,
+      "blockClass": ["footer-row-02","centralizer","lineFooter"]
+    }
+  }
+}

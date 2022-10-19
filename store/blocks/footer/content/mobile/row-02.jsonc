@@ -1,0 +1,8 @@
+{
+  "flex-layout.row#mobile-footer-row-02":{
+    "children":["rich-text#copyright"],
+    "props":{
+      "blockClass":["centralizer","footer-row-02"]
+    }
+  }
+}

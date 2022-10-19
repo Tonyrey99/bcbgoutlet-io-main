@@ -1,0 +1,51 @@
+@import './variables';
+
+.listContainer--list-tabs-gender{
+  position: absolute;
+  width: fit-content;
+  right: 5px;
+  top: 10px;
+  justify-content: flex-start;
+  overflow: auto;
+  flex-wrap: nowrap;
+
+  .listItem{
+    padding-top: 0;
+    margin-top: 0;
+    :global(.vtex-button){
+      border: 0;
+      border-radius: $radius;
+      height: 30px;
+      min-height: initial;
+      border-bottom: 3px solid transparent;
+      :global(.vtex-button__label){
+        padding: 0 2px!important;
+        color: $primaryColor;
+        font-weight: 500;
+        font-size: 13px;
+      }
+    }
+    @media(max-width: 1024px){
+      margin: 0;
+    }
+    &.listItemActive{
+      :global(.vtex-button){
+        background: transparent;
+        border-color: $primaryColor;
+        :global(.vtex-button__label){
+          color: $primaryColor;
+        }
+      }
+    }
+  }
+  @media(max-width: 1024px){
+    .listItem--item-hide-mobile{
+      display: none!important;
+    }
+    :global(.vtex-button__label){
+      color: $primaryColor;
+      font-size: 13px;
+      line-height: 16px;
+    }
+  }
+}

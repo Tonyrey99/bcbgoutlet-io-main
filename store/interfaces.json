@@ -1,0 +1,31 @@
+{
+  "short-description":{
+    "component":"ShortDescription"
+  },
+  "product-brand":{
+    "component":"ProductBrandName"
+  },
+  "sold-and-delivered": {
+    "component":"SoldAndDelivered"
+  },
+  "fixed-minicart": {
+    "component":"FixedMinicart"
+  },
+  "contact-form": {
+    "component":"ContactForm"
+  },
+  "institucional-menu":{
+    "component":"InstitucionalMenu"
+  },
+  "slider-cards": {
+    "component": "SliderCards"
+  },
+  "promotional-popup": {
+    "allow":"*",
+    "component":"PromotionalPopup",
+    "composition":"children"
+  },
+  "discount-phrase": {
+    "component": "DiscountPhrase"
+  }
+}

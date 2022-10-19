@@ -1,0 +1,69 @@
+@import './variables.scss';
+
+.container{
+  max-width: initial;
+  padding: 0;
+}
+
+.loginLink{
+  color: $primaryColor;
+  padding-left: 0;
+  font-weight: 700;
+  text-align: left;
+  justify-content: flex-start;
+}
+
+.summaryContainer{
+  display: flex;
+  align-items: center;
+  .stars{
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+  }
+  .summaryTotalReviews{
+    font-size: 13px!important;
+    position: relative;
+  }
+}
+
+.reviewCommentsContainer{
+  font-size: $fontSizePrimary;
+}
+
+
+.formContainer{
+  .formBottomLine,
+  .formName,
+  .formReview{
+    display: none;
+  }
+
+  .formSubmit{
+    :global(.vtex-button){
+      :global(.vtex-button__label){
+        font-size: 0;
+        &::before{
+          content: "Enviar evaluaci\00F3 n";
+          text-transform: uppercase;
+          font-size: 1rem;
+        }
+      }
+    }
+  }
+}
+
+.writeReviewContainer{
+  .writeReviewButton{
+    font-size: 0;
+    &::before{
+      content: "Quiero evaluar";
+      text-transform: uppercase;
+      font-size: 1rem;
+    }
+  }
+}
+
+.reviewCommentsContainer{
+  display: none!important;
+}

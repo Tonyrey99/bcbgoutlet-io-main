@@ -1,0 +1,31 @@
+{
+  "menu-item#mobile_departamento-telefonia": {
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "primaryItemMenu",
+      "itemProps": {
+        "type": "internal",
+        "noFollow": false,
+        "tagTitle": "Telefonía",
+        "text": "Telefonía"
+      }
+    },
+    "blocks":[
+      "vtex.menu@2.x:submenu.accordion#mobile_departamento-telefonia"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#mobile_departamento-telefonia":{
+    "children":[
+      "vtex.menu@2.x:menu#mobile_submenu-telefonia"
+    ]
+  },
+  "vtex.menu@2.x:menu#mobile_submenu-telefonia":{
+    "props":{
+      "blockClass": "submenuAccordion",
+      "orientation": "vertical"
+    },
+    "children":[],
+    "title": "Menu mobile - Telefonia"
+  }
+}

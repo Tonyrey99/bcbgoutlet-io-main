@@ -1,0 +1,30 @@
+{
+  "menu-item#mobile_departamento-computo": {
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "primaryItemMenu",
+      "itemProps": {
+        "type": "internal",
+        "noFollow": false,
+        "tagTitle": "Cómputo",
+        "text": "Cómputo"
+      }
+    },
+    "blocks":[
+      "vtex.menu@2.x:submenu.accordion#mobile_departamento-computo"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#mobile_departamento-computo":{
+    "children":[
+      "vtex.menu@2.x:menu#mobile_submenu-computo"
+    ]
+  },
+  "vtex.menu@2.x:menu#mobile_submenu-computo":{
+    "props":{
+      "blockClass": "submenuAccordion",
+      "categoryId": 319,
+      "orientation": "vertical"
+    }
+  }
+}

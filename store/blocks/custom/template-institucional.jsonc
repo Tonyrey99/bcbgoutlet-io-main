@@ -1,0 +1,72 @@
+{
+  "store.custom#template-institucional": {
+    "blocks": [
+      "flex-layout.row#institucional-wrap"
+    ]
+  },
+  "flex-layout.row#institucional-wrap":{
+    "children":[
+      "flex-layout.col#col01-institucional",
+      "flex-layout.col#col02-institucional"
+    ],
+    "props":{
+      "colGap":"6",
+      "blockClass":["centralizer","institucional-wrapper"]
+    }
+  },
+  "flex-layout.col#col01-institucional":{
+    "children":["institucional-menu"],
+    "props":{
+      "width":"25%",
+      "blockClass": "col-institucional-menu"
+    },
+    "title": "Col - Menu"
+  },
+  "flex-layout.col#col02-institucional":{
+    "children":[
+      "flex-layout.row#institucional-banner",
+      "flex-layout.row#institucional-content"
+    ],
+    "props":{
+      "width":{
+        "desktop": "75%",
+        "tablet": "75%",
+        "phone": "100%"
+      },
+      "blockClass": "col-content-institucional"
+    },
+    "title": "Col - Content"
+  },
+  "flex-layout.row#institucional-banner": {
+    "children": ["image#institucional-banner"],
+    "props": {
+      "marginTop": 6,
+      "fullWidth": true,
+      "blockClass": ["institucional-banner","centralizer","centralizer-institucional"]
+    },
+    "title": "Row - banner"
+  },
+  "image#institucional-banner":{
+    "props":{
+      "src": "assets/banners/institucional/about-us.png"
+    },
+    "title": "Banner"
+  },
+  "flex-layout.row#institucional-content": {
+    "children": ["rich-text#institucional-content"],
+    "props": {
+      "fullWidth": false,
+      "blockClass": ["institucional-content","centralizer","centralizer-institucional"]
+    },
+    "title": "Row - Content"
+  },
+  "rich-text#institucional-content": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "# Titulo \n Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium optio, eaque rerum! Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut! Impedit sit sunt quaerat, odit, tenetur error, harum nesciunt ipsum debitis quas aliquid. Reprehenderit, quia. \n\n Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium optio, eaque rerum! Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut! Impedit sit sunt quaerat, odit, tenetur error, harum nesciunt ipsum debitis quas aliquid. Reprehenderit, quia.",
+      "blockClass": "institucional-content"
+    },
+    "title": "Content"
+  }
+}

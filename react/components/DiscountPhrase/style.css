@@ -1,0 +1,20 @@
+.wrapper{
+  background: #FAFAFA;
+  margin-bottom: 1rem;
+}
+.paragraph{
+  margin: 0;
+  font-size: 1rem;
+}
+
+.asterisco{
+  color: red;
+  font-weight: 700;
+}
+
+@media(max-width: 1024px){
+  .wrapper{
+    padding: 5px 10px;
+    margin: 0 10px;
+  }
+}

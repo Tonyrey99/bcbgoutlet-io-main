@@ -1,0 +1,58 @@
+@import './variables';
+
+.biggy-autocomplete-wrapper{
+  @media(max-width: 1024px){
+    border-radius: $radius;
+  }
+  @media(min-width: 1025px){
+    border-radius: $radius;
+    top: 10px;
+    position: absolute;
+    left: initial;
+    right: 0;
+    width: 80vw;
+  }
+  .biggy-autocomplete{
+    @media(min-width: 1025px){
+      width: 80vw;
+    }
+    @media(max-width: 1024px){
+      border-radius: $radius;
+    }
+    transition: opacity 0.15s ease-in 0.05s, max-height 0.3s ease-out, padding 0.6s ease-out;
+    padding: 20px 0 10px 0;
+    border-radius: $radius;
+    max-height: 630px;
+    box-shadow: 0 5px 7px rgb(0 0 0 / 20%);
+    background: #fff;
+    overflow: auto;
+    display: flex;
+    transform: initial;
+    left: initial;
+    right: 0;
+    position: absolute;
+  }
+}
+
+.itemListList{
+  margin-top: 20px;
+  .itemListItem{
+    margin-bottom: 10px!important;
+    .itemListLink{
+      width: 100%;
+      display: flex;
+      align-items: center;
+      .itemListPrefix{
+        color: white;
+        background-color: black;
+        width: 35px;
+        height: 25px;
+        line-height: 25px;
+        font-size: 13px;
+        font-weight: 700;
+        padding-left: 10px;
+        margin-right: 20px;
+      }
+    }
+  }
+}

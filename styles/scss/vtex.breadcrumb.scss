@@ -1,0 +1,89 @@
+@import './variables.scss';
+
+.container {
+  margin: 10px 0 15px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  .arrow {
+    color: $textPrimaryColor;
+  }
+}
+
+.arrow,
+.homeLink,
+.homeLink::before,
+.term{
+  height: 15px;
+  display: flex;
+  column-gap: 4px;
+  align-items: center;
+  line-height: initial;
+  width: fit-content;
+  padding: 0 1px 0 1px;
+}
+
+.arrow{
+  &::before{
+    content: ":"!important
+  }
+  .caretIcon{
+    display: none;
+  }
+}
+
+.link{
+  &:hover{
+    color:  $textSecondaryColor!important;
+    text-decoration: underline;
+  }
+}
+
+.caretIcon{
+  color: $textPrimaryColor;
+}
+
+
+.homeLink {
+  margin-left: 0;
+  padding-left: 0!important;
+  &::before {
+    content: "Home";
+  }
+
+  .homeIcon {
+    display: none;
+    padding-left: 0;
+  }
+}
+
+.arrow{
+  .link{
+    margin-left: 0;
+    font-size: 13px;
+    padding: 0;
+    color: $textPrimaryColor;
+    text-transform: initial;
+    margin-bottom: 0;
+    &:hover {
+      color: $textPrimaryColor;
+    }
+  }
+  &.termArrow{
+    padding: 0 4px;
+  }
+}
+
+.homeLink{
+  &::before{
+    color: $textPrimaryColor;
+    font-size: 12px;
+    padding-top: 2px;
+  }
+}
+
+.term{
+  font-size: 13px;
+  font-weight: 500;
+}

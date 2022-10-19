@@ -1,0 +1,42 @@
+{
+  "sticky-layout#desktop-header":{
+    "children":[
+      "flex-layout.row#topbar",
+      "flex-layout.row#desktop-content-header",
+      "flex-layout.row#desktop-content-header-02",
+      "flex-layout.row#desktop-menu"
+    ],
+    "props":{
+      "blockClass":"sticky-header"
+    }
+  },
+
+  //Row content
+  "flex-layout.row#desktop-content-header":{
+    "children":[
+      "rich-text#find-us",
+      "flex-layout.col#spacer",
+      "flex-layout.col#login",
+      "flex-layout.col#desktop-search",
+      "flex-layout.col#wishlist",
+      "flex-layout.col#minicart"
+    ],
+    "props":{
+      "blockClass":["centralizer","desktop-content-header"],
+      "preventHorizontalStretch":true
+    }
+  },
+
+  //Row content
+  "flex-layout.row#desktop-content-header-02":{
+    "children":[
+      "flex-layout.col#desktop-logo"
+    ],
+    "props":{
+      "horizontalAlign": "center",
+      "blockClass":["centralizer","desktop-content-header","desktop-content-header-02"],
+      "preventHorizontalStretch":true
+    }
+  }
+
+}

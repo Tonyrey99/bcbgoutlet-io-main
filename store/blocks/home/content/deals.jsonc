@@ -1,0 +1,232 @@
+{
+  "flex-layout.row#deals": {
+    "children": [
+      "slider-layout#demo-deals"
+    ],
+    "props": {
+      "blockClass": ["deals","centralizer","line"]
+    },
+    "title": "Row - Benefits"
+  },
+
+  "slider-layout#demo-deals": {
+    "children": [
+      "modal-trigger#credit-card",
+      "modal-trigger#shipping",
+      "modal-trigger#discount",
+      "modal-trigger#security"
+    ],
+    "props": {
+      "autoplay": {
+        "timeout": 5000
+      },
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 3,
+        "phone": 1
+      },
+      "blockClass":"deals",
+      "showNavigationArrows": "never",
+      "infinite": true
+    }
+  },
+
+  //MODAL 01
+  "modal-trigger#shipping":{
+    "children":[
+      "flex-layout.row#shipping",
+      "modal-layout#shipping"
+    ],
+    "props":{
+      "blockClass": "deals"
+    }
+  },
+  "flex-layout.row#shipping": {
+    "children": [
+      "image#deal1",
+      "rich-text#deal1"
+    ],
+    "props":{
+      "preventHorizontalStretch": true,
+      "blockClass":"row-item-deal"
+    }
+  },
+  "image#deal1": {
+    "props": {
+      "src": "assets/icons/deals/icon-delivery.svg",
+      "blockClass": ["img-deal","no-radius"]
+    }
+  },
+  "rich-text#deal1": {
+    "props": {
+      "text": "**ENVÍO GRATIS** \n DESDE de $499",
+      "blockClass": "deals"
+    }
+  },
+  "modal-layout#shipping":{
+    "children":[
+      "rich-text#text-shipping"
+    ],
+    "props":{
+      "blockClass": "deals"
+    }
+  },
+  "rich-text#text-shipping":{
+    "props":{
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "blockClass": ["text-deals","text-deals--shipping"],
+      "text": "## Title \n Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam et augue vel tortor volutpat ultrices non et libero. Praesent sed elementum enim. Integer laoreet pulvinar magna et luctus. Fusce accumsan elit justo. Integer euismod efficitur dui, efficitur hendrerit ante dictum sed. Proin pellentesque mauris eu magna tincidunt, eget maximus velit rutrum. Mauris aliquet a orci eget hendrerit. Suspendisse tincidunt, justo nec rutrum luctus, lectus metus tempor libero, ac elementum tortor ipsum pharetra leo. Proin ac fermentum nisi. Fusce in sem in ipsum tempus pellentesque rhoncus quis massa. Pellentesque a semper odio."
+    }
+  },
+
+
+  //MODAL 02
+  "modal-trigger#security":{
+    "children":[
+      "flex-layout.row#security",
+      "modal-layout#security"
+    ],
+    "props":{
+      "blockClass": "deals"
+    }
+  },
+  "flex-layout.row#security": {
+    "children": [
+      "image#deal2",
+      "rich-text#deal2"
+    ],
+    "props":{
+      "preventHorizontalStretch": true,
+      "blockClass":"row-item-deal"
+    }
+  },
+  "image#deal2": {
+    "props": {
+      "src": "assets/icons/deals/icon-security.svg",
+      "blockClass": ["img-deal","no-radius"]
+    }
+  },
+  "rich-text#deal2": {
+    "props": {
+      "text": "**AMBIENTE DE COMPRA** \n 100% SEGURO",
+      "blockClass": "deals"
+    }
+  },
+  "modal-layout#security":{
+    "children":[
+      "rich-text#text-security"
+    ],
+    "props":{
+      "blockClass": "deals"
+    }
+  },
+  "rich-text#text-security":{
+    "props":{
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "blockClass": ["text-deals","text-deals--security"],
+      "text": "## Title \n Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam et augue vel tortor volutpat ultrices non et libero. Praesent sed elementum enim. Integer laoreet pulvinar magna et luctus. Fusce accumsan elit justo. Integer euismod efficitur dui, efficitur hendrerit ante dictum sed. Proin pellentesque mauris eu magna tincidunt, eget maximus velit rutrum. Mauris aliquet a orci eget hendrerit. Suspendisse tincidunt, justo nec rutrum luctus, lectus metus tempor libero, ac elementum tortor ipsum pharetra leo. Proin ac fermentum nisi. Fusce in sem in ipsum tempus pellentesque rhoncus quis massa. Pellentesque a semper odio."
+    }
+  },
+
+
+  //MODAL 03
+  "modal-trigger#credit-card":{
+    "children":[
+      "flex-layout.row#credit-card",
+      "modal-layout#credit-card"
+    ],
+    "props":{
+      "blockClass": "deals"
+    }
+  },
+  "flex-layout.row#credit-card": {
+    "children": [
+      "image#deal3",
+      "rich-text#deal3"
+    ],
+    "props":{
+      "preventHorizontalStretch": true,
+      "blockClass":"row-item-deal"
+    }
+  },
+  "image#deal3": {
+    "props": {
+      "src": "assets/icons/deals/icon-credit-card.svg",
+      "blockClass": ["img-deal","no-radius"]
+    }
+  },
+  "rich-text#deal3": {
+    "props": {
+      "text": "**HASTA 6X SIN INTERÉS** \n CON TARJETA",
+      "blockClass": "deals"
+    }
+  },
+  "modal-layout#credit-card":{
+    "children":[
+      "rich-text#text-credit-card"
+    ],
+    "props":{
+      "blockClass": "deals"
+    }
+  },
+  "rich-text#text-credit-card":{
+    "props":{
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "blockClass": ["text-deals","text-deals--payment"],
+      "text": "## Title \n Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam et augue vel tortor volutpat ultrices non et libero. Praesent sed elementum enim. Integer laoreet pulvinar magna et luctus. Fusce accumsan elit justo. Integer euismod efficitur dui, efficitur hendrerit ante dictum sed. Proin pellentesque mauris eu magna tincidunt, eget maximus velit rutrum. Mauris aliquet a orci eget hendrerit. Suspendisse tincidunt, justo nec rutrum luctus, lectus metus tempor libero, ac elementum tortor ipsum pharetra leo. Proin ac fermentum nisi. Fusce in sem in ipsum tempus pellentesque rhoncus quis massa. Pellentesque a semper odio."
+    }
+  },
+
+
+  //MODAL 03
+  "modal-trigger#discount":{
+    "children":[
+      "flex-layout.row#discount",
+      "modal-layout#discount"
+    ],
+    "props":{
+      "blockClass": "deals"
+    }
+  },
+  "flex-layout.row#discount": {
+    "children": [
+      "image#deal4",
+      "rich-text#deal4"
+    ],
+    "props":{
+      "preventHorizontalStretch": true,
+      "blockClass":"row-item-deal"
+    }
+  },
+  "image#deal4": {
+    "props": {
+      "src": "assets/icons/deals/icon-security.svg",
+      "blockClass": ["img-deal","no-radius"]
+    }
+  },
+  "rich-text#deal4": {
+    "props": {
+      "text": "**HASTA 6X SIN INTERÉS** \n CON TARJETA",
+      "blockClass": "deals"
+    }
+  },
+  "modal-layout#discount":{
+    "children":[
+      "rich-text#text-discount"
+    ],
+    "props":{
+      "blockClass": "deals"
+    }
+  },
+  "rich-text#text-discount":{
+    "props":{
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "blockClass": ["text-deals","text-deals--payment"],
+      "text": "## Title \n Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam et augue vel tortor volutpat ultrices non et libero. Praesent sed elementum enim. Integer laoreet pulvinar magna et luctus. Fusce accumsan elit justo. Integer euismod efficitur dui, efficitur hendrerit ante dictum sed. Proin pellentesque mauris eu magna tincidunt, eget maximus velit rutrum. Mauris aliquet a orci eget hendrerit. Suspendisse tincidunt, justo nec rutrum luctus, lectus metus tempor libero, ac elementum tortor ipsum pharetra leo. Proin ac fermentum nisi. Fusce in sem in ipsum tempus pellentesque rhoncus quis massa. Pellentesque a semper odio."
+    }
+  }
+}

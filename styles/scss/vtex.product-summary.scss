@@ -1,0 +1,111 @@
+@import './variables.scss';
+.containerNormal{
+  position: relative;
+  margin: 0;
+  &:hover{
+    .productBrand{
+      color: black;
+    }
+  }
+  @media(max-width: 1024px){
+    &:hover{
+      box-shadow: none!important;
+    }
+  }
+  .clearLink{
+    padding: 0;
+    align-items: center;
+    .element{
+      position: relative;
+      max-width: 300px;
+      .nameContainer{
+        width: 100%;
+        .productNameContainer{
+          text-align: center;
+          justify-content: center;
+          width: 100%;
+          margin: 0;
+        }
+      }
+      .image{
+        max-height: 342px!important;
+      }
+      .productBrand{
+        margin-right: 0;
+        width: 100%;
+        color: $textSecondaryColor;
+        text-transform: uppercase;
+        font-size: 13px;
+        letter-spacing: 2px;
+        font-weight: 700;
+        display: block;
+        @media(max-width: 1024px){
+          font-size: 12px;
+        }
+      }
+      :global(.vtex-flex-layout-0-x-flexRowContent--row-summary-actions){
+        display: grid;
+        margin-top: 16px;
+        column-gap: 5px;
+        grid-template-columns: 70px 1fr;
+        :global(.vtex-flex-layout-0-x-stretchChildrenWidth){
+          width:100%!important;
+          :global(.vtex-button){
+            background-color: #fafafa;
+            border: 2px solid #ddd;
+            max-width: 100%;
+            width: 100%;
+            min-width: 70px;
+            height: 49px;
+            min-height: 49px !important;
+            margin: 0 auto;
+
+            &:hover{
+              background-color: $buyButtonColor;
+              border-color: $buyButtonColor;
+              :global(.vtex-button__label){
+                color: white;
+              }
+            }
+            :global(.vtex-button__label){
+              height: 45px;
+              padding: 0 !important;
+              color: #aaa;
+              @media(max-width: 1024px){
+                height: 32px;
+              }
+            }
+          }
+        }
+      }
+      :global(.vtex-flex-layout-0-x-flexRow--row-summary-actions){
+        opacity: 0;
+        filter: alpha(opacity=0);
+        @media(max-width: 1024px){
+          opacity: 1;
+          filter: alpha(opacity=100);
+        }
+      }
+    }
+  }
+}
+
+.skuSelectorNameContainer{
+  padding-top: 8px;
+}
+
+.skuSelectorItem{
+  height: 30px;
+  .valueWrapper{
+    font-size: 11px;
+    padding: 0;
+  }
+}
+
+.image--hover{
+  z-index: 0!important;
+}
+
+.imageContainer{
+  position: relative;
+}

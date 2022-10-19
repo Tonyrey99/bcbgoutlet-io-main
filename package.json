@@ -1,0 +1,14 @@
+{
+  "name": "vtexio-boilerplate-store",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "sass": "sass --watch --no-source-map styles/scss:styles/css --style compressed"
+  },
+  "devDependencies": {},
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "sass": "^1.51.0"
+  }
+}

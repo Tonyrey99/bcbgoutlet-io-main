@@ -1,0 +1,12 @@
+{
+  "flex-layout.row#mobile-footer-row-01":{
+    "children":[
+      "flex-layout.col#footer-col-01",
+      "flex-layout.col#footer-col-02",
+      "flex-layout.col#footer-col-03"
+    ],
+    "props":{
+      "blockClass":["centralizer","mobile-footer-row-01"]
+    }
+  }
+}

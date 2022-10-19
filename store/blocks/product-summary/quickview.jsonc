@@ -1,0 +1,105 @@
+{
+  "modal-trigger#quickview": {
+    "children": [
+      "rich-text#quickview-trigger",
+      "modal-layout#quickview"
+    ],
+    "props": {
+      "blockClass": "quickview"
+    }
+  },
+
+  "rich-text#quickview-trigger":{
+    "props":{
+      "text": "Compra Express",
+      "blockClass": "quickview-trigger"
+    }
+  },
+
+  "modal-layout#quickview": {
+    "children": [
+      "modal-header#quickview",
+      "modal-content#quickview"
+    ],
+    "props": {
+      "blockClass": "quickview"
+    }
+  },
+  "modal-header#quickview": {
+    "props": {
+      "blockClass": "quickview"
+    }
+  },
+
+  "modal-content#quickview": {
+    "children": [
+      "flex-layout.row#product-breadcrumb",
+      "flex-layout.row#product-main-quickview",
+      "flex-layout.row#deals",
+      "flex-layout.row#description",
+      "flex-layout.row#specifications-title",
+      "flex-layout.row#product-specification-group-table"
+    ],
+    "props": {
+      "blockClass": "quickviewContent"
+    }
+  },
+
+  "flex-layout.row#product-main-quickview": {
+    "props": {
+      "colGap": 7,
+      "rowGap": 7,
+      "marginBottom": 7,
+      "paddingBottom": 7,
+      "blockClass": ["row-main-pdp","centralizer"]
+    },
+    "children": ["flex-layout.col#stack-quickview", "flex-layout.col#right-col-quickview"]
+  },
+
+  "flex-layout.col#stack-quickview":{
+    "children":["flex-layout.row#mobile-images-quickview"]
+  },
+
+  "flex-layout.col#right-col-quickview": {
+    "props": {
+      "preventVerticalStretch": true,
+      "rowGap": 0,
+      "blockClass": "product-right-col"
+    },
+    "children": [
+      "flex-layout.row#product-name",
+      "product-identifier.product",
+      "short-description",
+      "product-separator",
+      "flex-layout.row#list-price-savings",
+      "flex-layout.row#selling-price",
+      "product-installments",
+      "product-separator",
+      "similar-products-variants",
+      "flex-layout.row#tools",
+      "product-summary-sku-selector",
+      "flex-layout.row#buy-button",
+      //"flex-layout.row#stock-alert",
+      "product-gifts",
+      "availability-notify",
+      "shipping-simulator"
+    ]
+  },
+
+  "link.product#button-pdp": {
+    "props": {
+      "buttonProps": {
+        "variant": "secondary"
+      },
+      "displayMode": "button",
+      "label": "Ver Todo",
+      "href": "/{slug}/p"
+    }
+  },
+  "vtex.store-components:product-name": {
+    "props": {
+      "blockClass": "quickview"
+    }
+  }
+
+}

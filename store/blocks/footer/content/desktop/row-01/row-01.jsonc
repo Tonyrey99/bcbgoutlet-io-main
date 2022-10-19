@@ -1,0 +1,13 @@
+{
+  "flex-layout.row#desktop-footer-row-01": {
+    "children": [
+      "flex-layout.col#footer-col-01",
+      "flex-layout.col#footer-col-02",
+      "flex-layout.col#footer-col-03"
+    ],
+    "props": {
+      "preventHorizontalStretch": false,
+      "blockClass": ["footer-row-01","centralizer","lineFooter"]
+    }
+  }
+}

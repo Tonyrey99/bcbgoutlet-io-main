@@ -1,0 +1,24 @@
+@import './variables';
+
+.container{
+  display: flex;
+  width: fit-content!important;
+  align-items: center;
+  color: black;
+  background: transparent;
+  font-weight: 700;
+  .highStockText{
+    color: green;
+  }
+  .lowStockText,
+  .lowStockHighlight{
+    color: red;
+    font-size: $fontSizePrimary;
+  }
+  .lowStockHighlight{
+    display: inline-block;
+    font-size: 18px!important;
+    margin: 0 3px;
+    padding: 0 3px;
+  }
+}

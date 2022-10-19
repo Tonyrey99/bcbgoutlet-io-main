@@ -1,0 +1,30 @@
+{
+  "menu-item#mobile_factory": {
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "primaryItemMenu",
+      "itemProps": {
+        "type": "internal",
+        "noFollow": false,
+        "tagTitle": "FACTORY",
+        "text": "FACTORY"
+      }
+    },
+    "blocks":[
+      "vtex.menu@2.x:submenu.accordion#mobile_factory"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#mobile_factory":{
+    "children":[
+      "vtex.menu@2.x:menu#mobile_submenu-factory"
+    ]
+  },
+  "vtex.menu@2.x:menu#mobile_submenu-factory":{
+    "props":{
+      "blockClass": "submenuAccordion",
+      "categoryId": 1,
+      "orientation": "vertical"
+    }
+  }
+}

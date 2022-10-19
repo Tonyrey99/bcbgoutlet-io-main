@@ -1,0 +1,91 @@
+{
+  "flex-layout.row#highlight-brands":{
+    "children":[
+      "flex-layout.col#highlight-brands"
+    ],
+    "props":{
+      "blockClass":["centralizer","brands","line"]
+    },
+    "title":"Row - Brands"
+  },
+  "flex-layout.col#highlight-brands":{
+    "children":[
+      "rich-text#title-brands",
+      "list-context.image-list#brands"
+    ]
+  },
+  "rich-text#title-brands":{
+    "props":{
+      "text": "## Marcas",
+      "blockClass": "title-section"
+    }
+  },
+  "list-context.image-list#brands": {
+    "children":["slider-layout#brands"],
+    "props":{
+      "preload":true,
+      "height":80,
+      "blockClass":"brands",
+      "images":[
+        {
+          "image": "assets/brands/logo-apple.jpg",
+          "description": "something something",
+          "link":{
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/brands/logo-mabe.jpg",
+          "description": "something something",
+          "link":{
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/brands/logo-nike.jpg",
+          "description": "something something",
+          "link":{
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/brands/logo-norma.jpg",
+          "description": "something something",
+          "link":{
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/brands/logo-samsung.jpg",
+          "description": "something something",
+          "link":{
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/brands/logo-xiaomi.jpg",
+          "description": "something something",
+          "link":{
+            "url": "/"
+          }
+        }
+      ]
+    }
+  },
+
+  "slider-layout#brands":{
+    "props":{
+      "autoplay": {
+        "timeout": 5000
+      },
+      "itemsPerPage":{
+        "desktop":6,
+        "tablet":5,
+        "phone":2
+      },
+      "showNavigationArrows": "desktopOnly",
+      "blockClass":"brands",
+      "infinite": true
+    }
+  }
+}

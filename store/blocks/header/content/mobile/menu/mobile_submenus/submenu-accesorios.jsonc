@@ -1,0 +1,30 @@
+{
+  "menu-item#mobile_accesorios": {
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "primaryItemMenu",
+      "itemProps": {
+        "type": "internal",
+        "noFollow": false,
+        "tagTitle": "ACCESORIOS",
+        "text": "ACCESORIOS"
+      }
+    },
+    "blocks":[
+      "vtex.menu@2.x:submenu.accordion#mobile_accesorios"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#mobile_accesorios":{
+    "children":[
+      "vtex.menu@2.x:menu#mobile_submenu-accesorios"
+    ]
+  },
+  "vtex.menu@2.x:menu#mobile_submenu-accesorios":{
+    "props":{
+      "blockClass": "submenuAccordion",
+      "categoryId": 1,
+      "orientation": "vertical"
+    }
+  }
+}

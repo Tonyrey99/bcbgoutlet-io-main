@@ -1,0 +1,26 @@
+{
+  "flex-layout.row#mobile-search":{
+    "children":["search-bar#mobile"],
+    "props":{
+      "blockClass":["header-mobile-col","col-search"],
+      "width":"grow"
+    }
+  },
+  "search-bar#mobile": {
+    "blocks": ["autocomplete-result-list.v2#mobile"],
+    "props": {
+      "placeholder": "Busque aqui...",
+      "emptyPlaceholder": "Busque aqui...",
+      "openAutocompleteOnFocus": true
+    },
+    "title": "Mobile - Search bar"
+  },
+  "autocomplete-result-list.v2#mobile": {
+    "blocks": ["product-summary.shelf"],
+    "props":{
+      "autocompleteWidth": 100,
+      "productLayout": "HORIZONTAL",
+      "__unstableProductOriginVtex":true
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "menu-item#mobile_departamento-papeleria": {
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "primaryItemMenu",
+      "itemProps": {
+        "type": "internal",
+        "noFollow": false,
+        "tagTitle": "Papelería",
+        "text": "Papelería"
+      }
+    },
+    "blocks":[
+      "vtex.menu@2.x:submenu.accordion#mobile_departamento-papeleria"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#mobile_departamento-papeleria":{
+    "children":[
+      "vtex.menu@2.x:menu#mobile_submenu-papeleria"
+    ]
+  },
+  "vtex.menu@2.x:menu#mobile_submenu-papeleria":{
+    "props":{
+      "blockClass": "submenuAccordion",
+      "categoryId": 477,
+      "orientation": "vertical"
+    }
+  }
+}

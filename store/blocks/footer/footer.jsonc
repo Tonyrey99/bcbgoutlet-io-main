@@ -1,0 +1,72 @@
+{
+  "footer": {
+    "blocks": ["footer-layout.desktop", "footer-layout.mobile"]
+  },
+
+  //desktop
+  "footer-layout.desktop": {
+    "children": [
+      "flex-layout.row#desktop-footer-row-01",
+      "flex-layout.row#desktop-footer-row-02",
+      "rich-text#float-whatsapp",
+      "promotional-popup#newsletter"
+    ]
+  },
+
+  //mobile
+  "footer-layout.mobile": {
+    "children": [
+      "flex-layout.row#mobile-footer-row-01",
+      "flex-layout.row#mobile-footer-row-02",
+      "rich-text#float-whatsapp"
+    ]
+  },
+
+  //popup newsletter
+  "promotional-popup#newsletter":{
+    "children":[
+      "rich-text#title-newsletter-popup",
+      "newsletter-form"
+    ],
+    "props":{
+      "blockClass":"newsletter"
+    },
+    "title": "Start Popup"
+  },
+
+  "rich-text#title-newsletter-popup":{
+    "props":{
+      "text": "![newsletter](assets/bg-news-popup.jpg) \n RECIBIR **OFERTAS E NOVEDADES**",
+      "blockClass": "title-newsletter-popup"
+    }
+  },
+
+  //generals
+  "rich-text#copyright":{
+    "props":{
+      "text": "2022 Todos los derechos reservados BCBGMAXAZRIA",
+      "blockClass": "copyright",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    },
+    "title": "Copyright Text"
+  },
+
+  "link#whatsapp": {
+    "props": {
+      "href": "https://api.whatsapp.com/send?phone=5212223777190",
+      "target": "_blank",
+      "label": "Whatsapp",
+      "blockClass": "bt-whatsapp"
+    },
+    "title": "Link Whatsapp"
+  },
+
+  "rich-text#float-whatsapp":{
+    "props":{
+      "text": "[whatsapp](https://api.whatsapp.com/send?phone=5212223777190&target=_blank)",
+      "blockClass": "float-whatsapp-page"
+    }
+  }
+
+}

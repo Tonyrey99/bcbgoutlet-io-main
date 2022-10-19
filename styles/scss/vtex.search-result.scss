@@ -1,0 +1,156 @@
+@import './variables.scss';
+
+.showingProducts{
+    margin-top: 40px;
+}
+
+.searchResultContainer{
+  padding: 0;
+}
+
+.searchResultContainer {
+  padding: 0;
+  margin: 0!important;
+  width: 100%!important;
+  max-width: initial;
+}
+
+.orderByDropdown{
+  @media(min-width: 1024px){
+    float: right;
+    .orderByButton{
+      transition: background $transition;
+      background-color: transparent;
+      border-radius: 5px;
+      padding: 5px 0px 5px 15px;
+      border: 1px solid black;
+      &:hover{
+        background: #f1f1f1;
+      }
+      .filterPopupTitle{
+        .orderByText{
+          text-transform: initial;
+          color: black;
+        }
+      }
+    }
+  }
+}
+
+.orderByOptionsContainer{
+  z-index: 99;
+  @media(max-width: 1024px){
+    z-index: 99;
+    top: initial;
+  }
+}
+
+.filterTemplateOverflow{
+  :global(.vtex-checkbox__line-container){
+    align-items: center;
+    margin-bottom: 2px;
+  }
+}
+
+.filterTitle{
+  font-weight: 400;
+  color: black;
+}
+
+.filter__container{
+  margin: 0 0 10px 0;
+  border: 0;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ddd;
+  &:first-child{
+    margin: 0!important;
+    border: 0;
+    padding-bottom: 0!important;
+    border-bottom: none!important;
+  }
+  .filterMessage{
+    display: none;
+  }
+  .filterTitleSpan{
+    font-size: 16px;
+  }
+}
+
+.totalProducts--layout{
+  .totalProductsMessage{
+    font-size: 12px;
+    text-transform: initial;
+  }
+}
+
+.gallery--search-gallery{
+  padding: 0;
+}
+
+.totalProducts--layout{
+  text-align: left;
+  padding-left: 1.3rem;
+  padding-right: 0;
+}
+
+.galleryTitle--layout{
+  font-size: 24px;
+  margin-bottom: 15px;
+  display: flex;
+  color: $textPrimaryColor;
+  @media(max-width: 1023px){
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+  @media(min-width: 1024px){
+    padding-left: 1rem;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+  }
+}
+
+.galleryItem{
+  position: relative;
+  :global(.vtex-product-summary-2-x-container){
+    margin: 0;
+  }
+}
+
+.galleryItem--search-gallery--normal{
+  :global(.vtex-product-summary-2-x-container){
+    position: relative;
+    margin: 0 auto!important;
+  }
+}
+
+.filterItem{
+  :global(.vtex-checkbox__inner-container){
+    width: $sizeCheckboxFilters;
+    height: $sizeCheckboxFilters;
+    border-width: 1px;
+    border-color: #CCCCCC;
+  }
+  :global(.vtex-checkbox__container){
+    display: flex;
+    align-items: center;
+    :global(.vtex-checkbox__box-wrapper){
+      width: $sizeCheckboxFilters;
+      height: $sizeCheckboxFilters;
+    }
+    :global(.vtex-checkbox__input){
+      width: $sizeCheckboxFilters;
+      height: $sizeCheckboxFilters;
+    }
+  }
+  :global(.vtex-checkbox__label){
+    font-size: $fontSizePrimary;
+    font-weight: 400;
+    color: black;
+    margin: 0;
+    position: relative;
+  }
+}

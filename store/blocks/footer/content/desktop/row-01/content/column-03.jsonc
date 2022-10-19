@@ -1,0 +1,133 @@
+{
+  "flex-layout.col#footer-col-03":{
+    "children":[
+      "flex-layout.row#payment-methods-wrap",
+      "flex-layout.row#security-wrap"
+    ],
+    "props":{
+      "rowGap":"8",
+      "blockClass":["footer-col","footer-col--03"],
+      "preventVerticalStretch":true
+    }
+  },
+
+  /*ROW CONTENT 01
+  --------------------------------------------------------------*/
+
+    //payment forms
+    "flex-layout.row#payment-methods-wrap":{
+      "children":["flex-layout.col#payment-methods-wrap"]
+    },
+
+    //vertical alignment of row
+    "flex-layout.col#payment-methods-wrap":{
+      "children":[
+        "rich-text#title-payment-methods",
+        "flex-layout.row#payment-flags"
+      ],
+      "props":{
+        "preventVerticalStretch":true,
+        "blockClass": "payment-methods",
+        "rowGap":"5"
+      }
+    },
+
+    //title
+    "rich-text#title-payment-methods":{
+      "props":{
+        "text":"Formas de pago",
+        "blockClass":"footer-title-secondary"
+      }
+    },
+
+    //flags
+    "flex-layout.row#payment-flags":{
+      "children":["image#payment-flags"],
+      "props":{
+        "preventVerticalStretch":true,
+        "preventHorizontalStretch":true,
+        "verticalAlign":"middle",
+        "colGap":"4",
+        "blockClass":"row-payment-flags"
+      }
+    },
+
+    "image#payment-flags":{
+      "props":{
+        "src":"assets/payments/formas-de-pagamento.png",
+        "blockClass":"payment-flags"
+      }
+    },
+
+
+  /*ROW CONTENT 02
+  --------------------------------------------------------------*/
+
+    //payment forms
+    "flex-layout.row#security-wrap":{
+      "children":["flex-layout.col#security-wrap"]
+    },
+
+    //vertical alignment of row
+    "flex-layout.col#security-wrap":{
+      "children":[
+        "rich-text#title-security",
+        "flex-layout.row#security-flags"
+      ],
+      "props":{
+        "preventVerticalStretch":true,
+        "rowGap":"5"
+      }
+    },
+
+    //title
+    "rich-text#title-security":{
+      "props":{
+        "text":"Seguridad y Tecnologia",
+        "blockClass":"footer-title-secondary"
+      }
+    },
+
+    //flags
+    "flex-layout.row#security-flags":{
+      "children":[
+        "image#pci-certified",
+        "image#lets-encrypt",
+        "image#vtex",
+        "image#developers"
+      ],
+      "props":{
+        "preventVerticalStretch":true,
+        "preventHorizontalStretch":true,
+        "verticalAlign":"middle",
+        "colGap":"4",
+        "blockClass":"security-flags"
+      }
+    },
+
+    "image#pci-certified":{
+      "props":{
+        "src":"assets/security/pci-certified.png",
+        "blockClass":["security-flags","pci-certified"]
+      }
+    },
+    "image#lets-encrypt":{
+      "props":{
+        "src":"assets/security/lets-encrypt.png",
+        "blockClass":["security-flags","lets-encrypt"]
+      }
+    },
+    "image#vtex":{
+      "props":{
+        "src":"assets/sponsors/vtex.png",
+        "blockClass":["security-flags","vtex"]
+      }
+    },
+    "image#developers":{
+      "props":{
+        "src":"assets/sponsors/umvel.png",
+        "blockClass":["security-flags","developers"]
+      }
+    }
+
+}

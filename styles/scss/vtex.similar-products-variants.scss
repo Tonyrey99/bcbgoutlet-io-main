@@ -1,0 +1,31 @@
+@import './variables';
+
+.title{
+  font-size: $fontSizePrimary;
+  font-weight: 600;
+  color: #333;
+}
+
+.var-wrap{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  column-gap: 10px;
+  row-gap: 10px;
+  padding: 3px;
+  .img_wrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid transparent;
+    transition: border-color $transition;
+    border-radius: $radius;
+    &:hover{
+      border-color: black;
+    }
+    .img{
+      border-radius: $radius;
+      margin: 0;
+    }
+  }
+}

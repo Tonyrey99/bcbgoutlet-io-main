@@ -1,0 +1,30 @@
+{
+  "menu-item#mobile_departamento-blancos-colchones":{
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "primaryItemMenu",
+      "itemProps": {
+        "type": "internal",
+        "noFollow": false,
+        "tagTitle": "Blancos y Colchones",
+        "text": "Blancos y Colchones"
+      }
+    },
+    "blocks":[
+      "vtex.menu@2.x:submenu.accordion#mobile_departamento-blancos-colchones"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#mobile_departamento-blancos-colchones":{
+    "children":[
+      "vtex.menu@2.x:menu#mobile_submenu-blancos-colchones"
+    ]
+  },
+  "vtex.menu@2.x:menu#mobile_submenu-blancos-colchones":{
+    "props":{
+      "blockClass": "submenuAccordion",
+      "categoryId": 292,
+      "orientation": "vertical"
+    }
+  }
+}

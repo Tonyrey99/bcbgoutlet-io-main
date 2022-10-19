@@ -1,0 +1,52 @@
+{
+  "store.home": {
+    "blocks": [
+      "flex-layout.row#main-banners",
+      "flex-layout.row#deals",
+      "flex-layout.row#home-shelf-01",
+      "flex-layout.row#home-content-banner-01",
+      "flex-layout.row#home-shelf-02",
+      "flex-layout.row#mini-banners",
+      "flex-layout.row#home-content-banner-02",
+      //"flex-layout.row#home-shelf-03",
+      "flex-layout.row#mini-banners_2",
+      "flex-layout.row#newsletter"
+    ]
+  },
+
+  "slider-layout#demo-images": {
+    "props": {"autoplay": {
+        "timeout": 5000
+      },
+
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": false,
+      "showNavigationArrows": "never",
+      "showPaginationDots": "always",
+      "blockClass": "carousel"
+    }
+  },
+
+  "slider-layout#demo-products": {
+    "props": {
+      "autoplay": {
+        "timeout": 5000
+      },
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 3,
+        "phone": 2
+      },
+      "infinite": true,
+      "fullWidth": false,
+      "showNavigationArrows": "desktopOnly",
+      "showPaginationDots": "mobileOnly",
+      "blockClass": "shelf"
+    }
+  }
+
+}

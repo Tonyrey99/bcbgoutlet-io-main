@@ -1,0 +1,114 @@
+{
+  "flex-layout.col#footer-col-02":{
+    "children":[
+      "rich-text#footer-title-02",
+      "vtex.menu@2.x:menu#menu01-footer"
+    ],
+    "props":{
+      "blockClass":["footer-col","footer-col--02"],
+      "preventVerticalStretch":true
+    }
+  },
+
+  //title
+  "rich-text#footer-title-02":{
+    "props":{
+      "text":"**AYUDA Y SUPORTE**",
+      "blockClass":"footer-title-primary"
+    }
+  },
+
+  //menu
+  "vtex.menu@2.x:menu#menu01-footer": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": ["menu-footer","menu-footer--desktop","menu-footer--01"],
+      "items":[
+        {
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/account",
+            "noFollow": false,
+            "tagTitle": "Mi Cuenta",
+            "text": "Mi Cuenta"
+          }
+        },
+        {
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/account/#orders",
+            "noFollow": false,
+            "tagTitle": "Mis Pedidos",
+            "text": "Mis Pedidos"
+          }
+        },
+        {
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/institucional",
+            "noFollow": false,
+            "tagTitle": "Acerca de Nosotros",
+            "text": "Acerca de Nosotros"
+          }
+        },
+        {
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/institucional",
+            "noFollow": false,
+            "tagTitle": "Formas de pago",
+            "text": "Formas de pago"
+          }
+        },
+        {
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/institucional",
+            "noFollow": false,
+            "tagTitle": "Política de Entrega",
+            "text": "Política de Entrega"
+          }
+        },
+        {
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/institucional",
+            "noFollow": false,
+            "tagTitle": "Cambios y Devoluciones",
+            "text": "Cambios y Devoluciones"
+          }
+        },
+        {
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/institucional",
+            "noFollow": false,
+            "tagTitle": "Seguridad de Datos",
+            "text": "Seguridad de Datos"
+          }
+        }
+      ]
+    }
+  }
+}

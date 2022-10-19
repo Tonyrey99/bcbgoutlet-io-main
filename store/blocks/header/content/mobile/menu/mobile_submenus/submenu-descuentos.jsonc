@@ -1,0 +1,101 @@
+{
+  "menu-item#mobile_descuentos": {
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "primaryItemMenu",
+      "itemProps": {
+        "type": "internal",
+        "noFollow": false,
+        "tagTitle": "DESCUENTOS",
+        "text": "DESCUENTOS"
+      }
+    },
+    "blocks":[
+      "vtex.menu@2.x:submenu.accordion#mobile_descuentos"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#mobile_descuentos":{
+    "children":[
+      "vtex.menu@2.x:menu#mobile_submenu-descuentos"
+    ]
+  },
+  "vtex.menu@2.x:menu#mobile_submenu-descuentos":{
+    "props":{
+      "blockClass": "submenuAccordion",
+      "orientation": "vertical",
+      "items": [
+        {
+          "type": "custom",
+          "href": "/descuentos",
+          "itemProps": {
+            "type": "custom",
+            "noFollow": false,
+            "tagTitle":"Todo",
+            "text": "Todo"
+          }
+        },
+        {
+          "type": "custom",
+          "href": "/",
+          "itemProps": {
+            "type": "custom",
+            "noFollow": false,
+            "tagTitle":"Tops",
+            "text": "Tops"
+          }
+        },
+        {
+          "type": "custom",
+          "href": "/",
+          "itemProps": {
+            "type": "custom",
+            "noFollow": false,
+            "tagTitle":"Vestidos",
+            "text": "Vestidos"
+          }
+        },
+        {
+          "type": "custom",
+          "href": "/",
+          "itemProps": {
+            "type": "custom",
+            "noFollow": false,
+            "tagTitle":"Outerwear",
+            "text": "Outerwear"
+          }
+        },
+        {
+          "type": "custom",
+          "href": "/",
+          "itemProps": {
+            "type": "custom",
+            "noFollow": false,
+            "tagTitle":"Pantalon",
+            "text": "Pantalon"
+          }
+        },
+        {
+          "type": "custom",
+          "href": "/",
+          "itemProps": {
+            "type": "custom",
+            "noFollow": false,
+            "tagTitle":"Jumper Suit - Romper",
+            "text": "Jumper Suit - Romper"
+          }
+        },
+        {
+          "type": "custom",
+          "href": "/",
+          "itemProps": {
+            "type": "custom",
+            "noFollow": false,
+            "tagTitle":"Falda",
+            "text": "Falda"
+          }
+        }
+      ]
+    }
+  }
+}

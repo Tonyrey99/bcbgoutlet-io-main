@@ -1,0 +1,80 @@
+.sliderCards__wrapper{
+  background: transparent;
+}
+
+.sliderTrackContainer{
+  padding: 12px 0;
+}
+
+.sliderTrack{
+  align-items: flex-start;
+  column-gap: 15px;
+}
+
+.sliderCards__card{
+  background: transparent;
+}
+
+.sliderCards__imageWrapper{
+  height: 125px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.sliderCards__image{
+  transition: filter .12s linear;
+  object-fit: scale-down;
+}
+
+.sliderCards__card:hover .sliderCards__image{
+  filter: drop-shadow(3px 3px 2px rgba(0,0,0,.1));
+}
+
+.sliderCards__text{
+  display: block;
+  margin: 8px auto 0;
+  font-size: 16px;
+  line-height: 18px;
+  text-align: center;
+  color: black;
+  font-weight: 500;
+}
+
+.sliderCards__link{
+  display: block;
+  text-decoration: none;
+}
+
+.sliderLeftArrow::after,
+.sliderRightArrow::after{
+  content: "";
+  display: block;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 30px;
+  height: 30px;
+}
+
+.caretIcon{
+  display: none;
+}
+
+.sliderLeftArrow::after{
+  background-image: url("data:image/svg+xml,%3Csvg width='49' height='49' viewBox='0 0 49 49' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M24.5 0C38.0097 0 49 10.9903 49 24.5C49 38.0097 38.0097 49 24.5 49C10.9903 49 0 38.0097 0 24.5C0 10.9903 10.9903 0 24.5 0ZM16.9315 25.9435L27.1399 36.1518C27.538 36.5499 28.0606 36.75 28.5834 36.75C29.106 36.75 29.6287 36.5499 30.0269 36.1518C30.8251 35.3535 30.8251 34.0631 30.0269 33.2649L21.2619 24.5L30.0268 15.7351C30.825 14.9369 30.825 13.6465 30.0268 12.8482C29.2285 12.05 27.9381 12.05 27.1399 12.8482L16.9315 23.0566C16.1333 23.8549 16.1333 25.1451 16.9315 25.9435Z' fill='%236D6B6B'/%3E%3C/svg%3E%0A");
+  transition: transform .12s linear;
+}
+
+.sliderLeftArrow:hover::after{
+  transform: translateX(-4px);
+}
+
+.sliderRightArrow::after{
+  background-image: url("data:image/svg+xml,%3Csvg width='49' height='49' viewBox='0 0 49 49' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M24.5 0C10.9903 0 0 10.9903 0 24.5C0 38.0097 10.9903 49 24.5 49C38.0097 49 49 38.0097 49 24.5C49 10.9903 38.0097 0 24.5 0ZM32.0685 25.9435L21.8601 36.1518C21.462 36.5499 20.9394 36.75 20.4166 36.75C19.894 36.75 19.3713 36.5499 18.9731 36.1518C18.1749 35.3535 18.1749 34.0631 18.9731 33.2649L27.7381 24.5L18.9732 15.7351C18.175 14.9369 18.175 13.6465 18.9732 12.8482C19.7715 12.05 21.0619 12.05 21.8601 12.8482L32.0685 23.0566C32.8667 23.8549 32.8667 25.1451 32.0685 25.9435Z' fill='%236D6B6B'/%3E%3C/svg%3E%0A");
+  transition: transform .12s linear;
+}
+
+.sliderRightArrow:hover::after{
+  transform: translateX(4px);
+}

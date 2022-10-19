@@ -1,0 +1,41 @@
+{
+  "menu-item#mobile_bcbg-generation": {
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "primaryItemMenu",
+      "itemProps": {
+        "type": "internal",
+        "noFollow": false,
+        "tagTitle": "BCBGENERATION",
+        "text": "BCBGENERATION"
+      }
+    },
+    "blocks":[
+      //"vtex.menu@2.x:submenu.accordion#mobile_bcbg-generation"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#mobile_bcbg-generation":{
+    "children":[
+      "vtex.menu@2.x:menu#mobile_submenu-bcbg-generation"
+    ]
+  },
+  "vtex.menu@2.x:menu#mobile_submenu-bcbg-generation":{
+    "props":{
+      "blockClass": "submenuAccordion",
+      "orientation": "vertical",
+      "items": [
+        {
+          "type": "custom",
+          "href": "https://www.bcbgeneration.mx",
+          "itemProps": {
+            "type": "custom",
+            "noFollow": false,
+            "tagTitle":"BCBGENERATION",
+            "text": "BCBGENERATION"
+          }
+        }
+      ]
+    }
+  }
+}

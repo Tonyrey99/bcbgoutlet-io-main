@@ -1,0 +1,111 @@
+{
+  "drawer#mobile-menu": {
+    "children": [
+      "flex-layout.row#menu-header"
+    ],
+    "props": {
+      "blockClass": "menuDrawer",
+      "maxWidth": 384
+    }
+  },
+  "flex-layout.row#menu-header": {
+    "props": {
+      "blockClass": "menuHeader"
+    },
+    "children": ["flex-layout.col#menu-header"]
+  },
+  "flex-layout.col#menu-header": {
+    "children": [
+      "flex-layout.row#drawer-row-01",
+      "flex-layout.row#drawer-row-02"
+    ],
+    "props": {
+      "blockClass": "drawerInnerCol"
+    }
+  },
+  "rich-text#drawer-row-01":{
+    "props":{
+      "text": "Departamentos",
+      "blockClass": "trigger-menu-departamentos"
+    },
+    "title": "Text drawer Row 01"
+  },
+
+  "flex-layout.row#drawer-row-01":{
+    "children":[
+      "vtex.menu@2.x:menu#mobile-menu"
+    ],
+    "props":{
+      "blockClass":["drawer-row","drawer-row-01"]
+    }
+  },
+  "flex-layout.row#drawer-row-02":{
+    "children":[
+      "vtex.menu@2.x:menu#mobile-secondary-menu"
+    ],
+    "props":{
+      "blockClass":["drawer-row","drawer-row-02"]
+    },
+    "title": "Row - Mobile Secondary Menu"
+  },
+  "drawer-header#my-drawer": {
+    "children": ["flex-layout.row#drawer-header"]
+  },
+  "vtex.menu@2.x:menu#mobile-secondary-menu":{
+    "props":{
+      "orientation":"vertical",
+      "blockClass":"mobile-secondary-menu"
+    },
+    "title": "Mobile Secondary Menu"
+  },
+  "flex-layout.row#drawer-header": {
+    "children": [
+      "flex-layout.col#spacer",
+      "flex-layout.col#drawer-close-button"
+    ],
+    "props": {
+      "blockClass": "drawer-header",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true
+    }
+  },
+  "flex-layout.col#drawer-close-button": {
+    "children": ["drawer-close-button"],
+    "props": {
+      "verticalAlign": "middle",
+      "horizontalAlign": "right"
+    }
+  },
+  "link#mobileOrderQuote":{
+    "props": {
+      "blockClass": ["quickOrderLink","mobileStoreLink"],
+      "href": "/compra-rapida/",
+      "label": "Cotizar"
+    }
+  },
+  "link#quick-order":{
+    "props": {
+      "blockClass": ["quickOrderLink","mobileStoreLink"],
+      "href": "/compra-rapida/",
+      "label": "Compra rápida"
+    }
+  },
+  "vtex.menu@2.x:menu#mobile-menu": {
+    "children": [
+      "menu-item#mobile_new-arrivals",
+      "menu-item#mobile_vestidos",
+      "menu-item#mobile_ropa",
+      "menu-item#mobile_accesorios",
+      "menu-item#mobile_girls",
+      "menu-item#mobile_descuentos",
+      "menu-item#mobile_factory",
+      "menu-item#mobile_bcbg-generation"
+    ],
+    "props":{
+      "orientation":"vertical",
+      "blockClass":"mobileMainMenu"
+    }
+  }
+}
