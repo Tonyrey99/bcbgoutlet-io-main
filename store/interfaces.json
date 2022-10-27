@@ -27,5 +27,8 @@
   },
   "discount-phrase": {
     "component": "DiscountPhrase"
+  },
+  "show-together":{
+    "component":"ShowTogether"
   }
 }

@@ -1,0 +1,115 @@
+.showTogether__wrapper{
+  background: transparent;
+  margin-top: 30px;
+}
+
+.showTogether__content{
+  background: transparent;
+}
+
+.showTogether__title{
+  margin: 0 0 10px;
+  font-size: 29px;
+  font-weight: 400;
+}
+
+.listItem__name{
+  width: 100%;
+  max-width: 240px;
+}
+
+.showTogether__subtitle{
+  margin: 0 0 25px;
+  color: #888888;
+  font-family: "Montserrat","serif";
+  font-size: 14px;
+}
+
+.showTogether__list{
+  row-gap: 20px;
+}
+
+.showTogether__ListItem{
+  width: 100%;
+  clear: both;
+  column-gap: 15px;
+
+}
+
+.listItem__image{
+  width: 100%;
+  min-width: 65px;
+  height: 100%;
+  display: block;
+  max-width: 100px;
+  max-height: 100px;
+  border-radius: 5px;
+}
+
+.listItem__title{
+  margin: 0 0 10px;
+  font-weight: 400;
+  font-size: 1.3rem;
+}
+
+.listItem__shortDescription{
+  margin: 0;
+  font-family: "Montserrat","serif";
+  font-size: 12px;
+  color: #888888;
+}
+
+.listItem__priceWrapper{
+  min-width: 80px;
+  font-family: "Montserrat","serif";
+  font-size: 22px;
+  font-weight: 500;
+}
+
+@media(max-width: 980px){
+  .listItem__priceWrapper {
+    font-size: 16px;
+  }
+}
+
+:global(.mingo-store-1-x-price){
+  text-transform: uppercase;
+}
+
+.showTogether__buyButton{
+  width: 100%;
+  max-width: 85px;
+  background: #242722;
+  color: #fff;
+  border-radius: 20px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 15px;
+  margin-top: 10px;
+  font-family: "Montserrat","serif";
+  text-transform: lowercase;
+  font-size: 12px;
+  cursor: pointer;
+  transition: background-color .12s linear;
+}
+
+.showTogether__buyButton:hover{
+  background: #3d423a;
+}
+
+.description_short{
+  font-family: "Montserrat","serif";
+  text-align: left;
+  color: #474646  !important;
+  text-transform: lowercase;
+  font-size: 14px !important;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  line-height: 20px;     /* fallback */
+  max-height: 38px;      /* fallback */
+  -webkit-line-clamp: 2; /* number of lines to show */
+  -webkit-box-orient: vertical;
+}

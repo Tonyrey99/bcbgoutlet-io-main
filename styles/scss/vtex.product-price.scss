@@ -10,7 +10,7 @@
 }
 
 .sellingPriceValue--summary{
-  font-size: 26px;
+  font-size: 22px;
   font-weight: 700;
   color: $primaryColor;
   @media(max-width: 1024px){
@@ -53,7 +53,7 @@
 .listPrice{
   display: block;
   margin-bottom: 5px;
-  color: $textTertiaryColor;
+  color: #8a8787;
   font-size: 13px;
   margin-top: 5px ;
 }

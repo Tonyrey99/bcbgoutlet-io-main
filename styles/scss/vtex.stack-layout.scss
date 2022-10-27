@@ -39,3 +39,11 @@
     }
   }
 }
+
+
+:global(.vtex-input-prefix__group){
+  border-radius: 0px;
+  :global(.vtex-styleguide-9-x-input){
+    border-radius: 0px;
+  }
+}

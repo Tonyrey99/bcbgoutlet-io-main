@@ -28,6 +28,7 @@
       "flex-layout.row#mobile-row-details",
       "discount-phrase",
       "flex-layout.row#mobile-row-shipping-calculator",
+      "show-together",
       "flex-layout.row#deals",
       "flex-layout.row#description",
       "flex-layout.row#specifications-title",
@@ -297,7 +298,8 @@
       "product-gifts",
       //"sold-and-delivered",
       "availability-notify",
-      "shipping-simulator"
+      "shipping-simulator",
+      "show-together"
       //"rich-text#change-policy"
       //"share#default"
     ]
