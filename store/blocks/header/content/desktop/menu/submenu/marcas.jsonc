@@ -54,46 +54,6 @@
         },
         {
           "type": "custom",
-          "href": "/asics",
-          "itemProps": {
-            "type": "custom",
-            "noFollow": false,
-            "tagTitle": "Asics",
-            "text": "Asics"
-          }
-        },
-        {
-          "type": "custom",
-          "href": "/brooks",
-          "itemProps": {
-            "type": "custom",
-            "noFollow": false,
-            "tagTitle": "Brooks",
-            "text": "Brooks"
-          }
-        },
-        {
-          "type": "custom",
-          "href": "/fit-zone-active-wear",
-          "itemProps": {
-            "type": "custom",
-            "noFollow": false,
-            "tagTitle": "Fit Zone Active Wear",
-            "text": "Fit Zone Active Wear"
-          }
-        },
-        {
-          "type": "custom",
-          "href": "/jansport",
-          "itemProps": {
-            "type": "custom",
-            "noFollow": false,
-            "tagTitle": "Jansport",
-            "text": "Jansport"
-          }
-        },
-        {
-          "type": "custom",
           "href": "/nike",
           "itemProps": {
             "type": "custom",

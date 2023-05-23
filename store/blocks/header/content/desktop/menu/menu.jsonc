@@ -19,10 +19,12 @@
       "menu-item#item-example-02",
       "menu-item#item-example-03",
       "menu-item#item-example-04",
-      "menu-item#item-example-05",
+      //"menu-item#item-example-05",
       "menu-item#item-example-06",
       "menu-item#item-example-07",
       "menu-item#item-example-08"
+      //"menu-item#item-marcas"
+      
     ],
     "title": "Desktop - Menu"
   }

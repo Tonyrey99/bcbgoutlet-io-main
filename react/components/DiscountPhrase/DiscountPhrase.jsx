@@ -16,7 +16,7 @@ const DiscountPhrase = () => {
     setListPrice(productContextValue.selectedItem.sellers[0].commertialOffer.ListPrice)
     setSellingPrice(productContextValue.selectedItem.sellers[0].commertialOffer.Price)
 
-    console.log(`listPrice --> ${listPrice} | sellingPrice --> ${sellingPrice}`)
+    //console.log(`listPrice --> ${listPrice} | sellingPrice --> ${sellingPrice}`)
 
   }, [])
 

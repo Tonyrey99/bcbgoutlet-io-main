@@ -332,6 +332,7 @@
     "children": [
       "image#size-table"
     ]
+    
   },
   "image#size-table":{
     "props":{

@@ -1,0 +1,10 @@
+{
+
+  "store.custom#capacitacion":{
+    "blocks": [
+      "flex-layout.row#capacitacion-title",
+      "flex-layout.row#capacitacion-banners"
+    ]
+  }
+
+}
