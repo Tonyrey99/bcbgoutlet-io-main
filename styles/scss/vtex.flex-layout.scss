@@ -293,3 +293,10 @@
 .flexRow--productSpecificationGroupName{
   display: none;
 }
+
+.flexRow--mobile-row-shipping-calculator{
+  .stretchChildrenWidth{
+    display: flex!important;
+    flex-direction: column!important;
+  }
+}

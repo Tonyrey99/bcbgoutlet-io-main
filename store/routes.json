@@ -1,6 +1,6 @@
 {
   "store.custom#contact-us": {
-    "path": "/contato"
+    "path": "/contacto"
   },
   "store.custom#template-institucional":{
     "path":"/institucional"

@@ -58,6 +58,8 @@
           box-shadow: 0 0 5px rgba(0,0,0,.1);
           border: none;
           border-radius: 0 0 $radius $radius;
+          width: auto;
+          min-width: 100%;
           .submenu{
             width: 100%;
             .menuContainerNav{
