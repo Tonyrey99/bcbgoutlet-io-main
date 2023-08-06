@@ -243,6 +243,7 @@
     "props": {
       "width": "60%",
       "rowGap": 0,
+      "preventVerticalStretch": true,
       "blockClass": "col-image-pdp"
     }
   },

@@ -66,17 +66,15 @@
               width: 100%;
               padding: 0 20px;
               .menuContainer{
-                .menuItem{
-                  .styledLinkContainer{
-                    margin: 0;
-                    .styledLink{
-                      .styledLinkContent{
-                        color: black;
-                        padding: 3px 0;
-                        display: flex;
-                        &:hover{
-                          color: $secondaryColor;
-                        }
+                .styledLinkContainer{
+                  margin: 0;
+                  .styledLink{
+                    .styledLinkContent{
+                      color: black;
+                      padding: 3px 0;
+                      display: flex;
+                      &:hover{
+                        text-decoration: underline;
                       }
                     }
                   }
