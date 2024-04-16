@@ -98,7 +98,11 @@
       "menu-item#mobile_vestidos",
       "menu-item#mobile_ropa",
       "menu-item#mobile_accesorios",
+<<<<<<< HEAD
       //"menu-item#mobile_girls",
+=======
+      "menu-item#mobile_girls",
+>>>>>>> 3ad5d2a2738537beff2ce23fa1fb58a64fbb7aa8
       "menu-item#mobile_descuentos",
       "menu-item#mobile_factory",
       "menu-item#mobile_bcbg-generation"
