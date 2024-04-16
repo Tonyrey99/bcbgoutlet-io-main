@@ -1,7 +1,7 @@
 {
   "vendor": "bcbgmx",
   "name": "store",
-  "version": "1.3.41",
+  "version": "1.7.57",
   "builders": {
     "styles": "2.x",
     "store": "0.x",
@@ -23,7 +23,6 @@
     "vtex.order-items": "0.x",
     "vtex.render-runtime": "8.x",
     "vtex.search": "2.x",
-    "vtex.store": "2.x",
     "vtex.store-header": "2.x",
     "vtex.product-summary": "2.x",
     "vtex.store-footer": "2.x",
@@ -38,6 +37,7 @@
     "vtex.product-kit": "1.x",
     "vtex.search-result": "3.x",
     "vtex.login": "2.x",
+    "vtex.store": "2.x",
     "vtex.my-account": "1.x",
     "vtex.flex-layout": "0.x",
     "vtex.rich-text": "0.x",
@@ -79,7 +79,7 @@
   },
   "peerDependencies": {
     "vtex.wish-list": "1.x",
-    "vtex.reviews-and-ratings": "3.x",
+    "vtex.reviews-and-ratings": "2.x",
     "vtex.availability-notify": "1.x",
     "vtexeurope.minicart-freeshipping-bar": "1.x",
     "vtex.store-locator": "0.x"
