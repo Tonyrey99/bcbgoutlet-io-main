@@ -1,0 +1,13 @@
+.list--list-context-wishlist{
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 15px;
+  row-gap: 15px;
+  flex-wrap: wrap;
+  @media(max-width: 1024px){
+    column-gap: 10px;
+    row-gap: 10px;
+  }
+  @media(max-width: 650px){
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

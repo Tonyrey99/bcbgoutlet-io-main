@@ -1,0 +1,30 @@
+{
+  "menu-item#mobile_departamento-electrodomesticos": {
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "primaryItemMenu",
+      "itemProps": {
+        "type": "internal",
+        "noFollow": false,
+        "tagTitle": "Electrodomésticos",
+        "text": "Electrodomésticos"
+      }
+    },
+    "blocks":[
+      "vtex.menu@2.x:submenu.accordion#mobile_departamento-electrodomesticos"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#mobile_departamento-electrodomesticos":{
+    "children":[
+      "vtex.menu@2.x:menu#mobile_submenu-electrodomesticos"
+    ]
+  },
+  "vtex.menu@2.x:menu#mobile_submenu-electrodomesticos":{
+    "props":{
+      "blockClass": "submenuAccordion",
+      "categoryId": 49,
+      "orientation": "vertical"
+    }
+  }
+}

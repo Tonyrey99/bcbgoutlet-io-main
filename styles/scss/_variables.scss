@@ -1,0 +1,39 @@
+/*Layout sizes*/
+$maxWidth: 1240px;
+
+/*colors*/
+$primaryColor: black;
+$primaryColorHover: lighten($primaryColor,5%);
+$secondaryColor: black;
+$secondaryColorHover: lighten($secondaryColor,5%);
+$tertiaryColor: #ed1c24;
+$tertiaryColorHover: lighten($tertiaryColor,5%);
+
+/*topbar*/
+$topBarTextColor: black;
+$topBarTextPadding: 5px;
+$topBarTextSize: 12px;
+$topBarIconHeight: 23px;
+$topBarIconWidth: 23px;
+$topBarLineHeight: 16px;
+$topBarTextPadding: 5px 10px;
+
+/*text*/
+$textPrimaryColor: #1e1e1e;
+$textSecondaryColor: #999999;
+$textTertiaryColor: #ed1c24;
+$fontSizePrimary: 14px;
+
+/*general*/
+$shadow: 0 2px 3px rgba(0,0,0,0.15);
+$radius: 0;
+$transition: .12s linear;
+$borderColorLight: #E3E3E3;
+$borderColorDark: #DDDDDD;
+
+//search result
+$sizeCheckboxFilters: 11px;
+
+/*Buy button color*/
+$buyButtonColor: black;
+$buyButtonColorHover: lighten($buyButtonColor,10%);

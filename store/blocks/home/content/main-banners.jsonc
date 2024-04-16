@@ -1,0 +1,48 @@
+{
+  "flex-layout.row#main-banners": {
+    "children": [
+      "list-context.image-list#demo"
+    ],
+    "props":{
+      "blockClass": ["main-banners", "line"]
+    },
+    "title": "Row - Main Banners"
+  },
+  "list-context.image-list#demo": {
+    "children": ["slider-layout#demo-images"],
+    "props": {
+      "blockClass": "main-banners",
+      "height": 1500,
+      "images": [
+        {
+          "image": "assets/banners/home/main-banner-01.png",
+          "mobileImage": "assets/banners/home/main-banner-mobile-01.jpg",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/banners/home/main-banner-01.png",
+          "mobileImage": "assets/banners/home/main-banner-mobile-01.jpg",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/banners/home/main-banner-01.png",
+          "mobileImage": "assets/banners/home/main-banner-mobile-01.jpg",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/banners/home/main-banner-01.png",
+          "mobileImage": "assets/banners/home/main-banner-mobile-01.jpg",
+          "link": {
+            "url": "/"
+          }
+        }
+      ]
+    }
+  }
+}

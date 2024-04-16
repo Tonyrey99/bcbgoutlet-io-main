@@ -1,0 +1,24 @@
+@font-face {
+  font-family: 'Helvetica';
+  src: url(assets/fonts/Helvetica.ttf);
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Helvetica';
+  src: url(assets/fonts/Helvetica-Bold.ttf);
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'Libre Baskerville';
+  src: url(assets/fonts/LibreBaskerville-Regular.ttf);
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Libre Baskerville';
+  src: url(assets/fonts/LibreBaskerville-Bold.ttf);
+  font-weight: 700;
+}
+

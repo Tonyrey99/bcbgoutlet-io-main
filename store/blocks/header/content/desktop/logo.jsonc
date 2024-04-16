@@ -1,0 +1,16 @@
+{
+  "flex-layout.col#desktop-logo":{
+    "children":["logo#desktop"],
+    "props":{
+      "blockClass":["header-desktop-col","col-logo"]
+    }
+  },
+  "logo#desktop":{
+    "props":{
+      "title":"Logo",
+      "href":"/",
+      "url":"assets/logo-bcbg.svg",
+      "width":"280"
+    }
+  }
+}

@@ -1,0 +1,319 @@
+{
+  "store.custom#list-navigation-page": {
+    "blocks": [
+      "flex-layout.row#title-navigation-page",
+      "flex-layout.row#subcategories",
+      "flex-layout.row#best-sellers",
+      "flex-layout.row#releases",
+      "flex-layout.row#discounts",
+      "flex-layout.row#title-navigation-page-list",
+      "search-result-layout.customQuery#custom-search",
+      "flex-layout.row#text-navigation-page"
+    ]
+  },
+
+  "flex-layout.row#title-navigation-page":{
+    "children":[
+      "rich-text#title-navigation-page"
+    ],
+    "props":{
+      "blockClass":["centralizer","title-navigation-page","line"]
+    }
+  },
+
+  "rich-text#title-navigation-page":{
+    "props":{
+      "text": "# Page title",
+      "blockClass": "title-navigation-page"
+    }
+  },
+
+  "flex-layout.row#title-navigation-page-list":{
+    "children":[
+      "rich-text#title-navigation-page-list"
+    ],
+    "props":{
+      "blockClass":["centralizer","title-section","title-navigation-page-list","line"]
+    }
+  },
+
+  "rich-text#title-navigation-page-list":{
+    "props":{
+      "text": "## Todos productos",
+      "blockClass": "title-navigation-page"
+    }
+  },
+
+  "flex-layout.row#text-navigation-page":{
+    "children":[
+      "rich-text#navigation-page-text"
+    ],
+    "props":{
+      "text": "#Titulo \n Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium optio, eaque rerum! Provident similique accusantium nemo autem.",
+      "blockClass":["centralizer","navigation-page-text","line"]
+    },
+    "title": "Row - navigation-page Text"
+  },
+
+  "rich-text#navigation-page-text":{
+    "props":{
+      "text": "## SEO Text Title \n Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium optio, eaque rerum! Provident similique accusantium nemo autem.",
+      "blockClass":"navigation-page-seo-text"
+    },
+    "title": "SEO Text"
+  },
+
+  "flex-layout.row#subcategories":{
+    "children":[
+      "list-context.image-list#subcategories"
+    ],
+    "props":{
+      "blockClass":["centralizer","subcategories","line"]
+    }
+  },
+
+  "list-context.image-list#subcategories": {
+    "children":["slider-layout#subcategories"],
+    "props":{
+      "preload":true,
+      "maxHeight":210,
+      "blockClass":["home-subcategories"],
+      "images":[
+        {
+          "image": "assets/banners/category-box.png",
+          "description": "something something",
+          "link":{
+            "url": "/"
+          },
+          "blockClass":"category01"
+        },
+        {
+          "image": "assets/banners/category-box.png",
+          "description": "something something",
+          "link":{
+            "url": "/"
+          },
+          "blockClass":"category01"
+        },
+        {
+          "image": "assets/banners/category-box.png",
+          "description": "something something",
+          "link":{
+            "url": "/"
+          },
+          "blockClass":"category01"
+        },
+        {
+          "image": "assets/banners/category-box.png",
+          "description": "something something",
+          "link":{
+            "url": "/"
+          },
+          "blockClass":"category01"
+        },
+        {
+          "image": "assets/banners/category-box.png",
+          "description": "something something",
+          "link":{
+            "url": "/"
+          },
+          "blockClass":"category01"
+        },
+        {
+          "image": "assets/banners/category-box.png",
+          "description": "something something",
+          "link":{
+            "url": "/"
+          },
+          "blockClass":"category01"
+        },
+        {
+          "image": "assets/banners/category-box.png",
+          "description": "something something",
+          "link":{
+            "url": "/"
+          },
+          "blockClass":"category01"
+        },
+        {
+          "image": "assets/banners/category-box.png",
+          "description": "something something",
+          "link":{
+            "url": "/"
+          },
+          "blockClass":"category01"
+        },
+        {
+          "image": "assets/banners/category-box.png",
+          "description": "something something",
+          "link":{
+            "url": "/"
+          },
+          "blockClass":"category01"
+        },
+        {
+          "image": "assets/banners/category-box.png",
+          "description": "something something",
+          "link":{
+            "url": "/"
+          },
+          "blockClass":"category01"
+        },
+        {
+          "image": "assets/banners/category-box.png",
+          "description": "something something",
+          "link":{
+            "url": "/"
+          },
+          "blockClass":"category01"
+        },
+        {
+          "image": "assets/banners/category-box.png",
+          "description": "something something",
+          "link":{
+            "url": "/"
+          },
+          "blockClass":"category01"
+        }
+      ]
+    }
+  },
+
+  "slider-layout#subcategories":{
+    "props":{
+      "itemsPerPage":{
+        "desktop":30,
+        "tablet":30,
+        "phone":30
+      },
+      "showNavigationArrows":"never",
+      "showPaginationDots":"never",
+      "blockClass":"subcategories",
+      "infinite":false
+    }
+  },
+
+  "flex-layout.row#best-sellers":{
+    "children":[
+      "flex-layout.col#best-sellers"
+    ],
+    "props":{
+      "blockClass": ["centralizer","best-sellers","line"]
+    },
+    "title":"Row - Best Sellers"
+  },
+
+  "flex-layout.col#best-sellers":{
+    "children":[
+      "rich-text#title-best-sellers",
+      "list-context.product-list#best-sellers"
+    ],
+    "props":{
+      "blockClass": "best-sellers"
+    }
+  },
+
+  "rich-text#title-best-sellers":{
+    "props":{
+      "text": "## MÁS VENDIDOS",
+      "blockClass": ["title-section","title-best-sellers"]
+    }
+  },
+
+  "list-context.product-list#best-sellers": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#demo-categories"],
+    "props": {
+      "orderBy": "OrderByReleaseDateDESC"
+    },
+    "title": "Collection - Best Sellers"
+  },
+
+  "flex-layout.row#releases":{
+    "children":[
+      "flex-layout.col#releases"
+    ],
+    "props":{
+      "blockClass": ["centralizer","releases","line"]
+    },
+    "title":"Row - Releases"
+  },
+
+  "flex-layout.col#releases":{
+    "children":[
+      "rich-text#title-releases",
+      "list-context.product-list#releases"
+    ],
+    "props":{
+      "blockClass": "releases"
+    }
+  },
+
+  "rich-text#title-releases":{
+    "props":{
+      "text": "## LANZAMIENTOS",
+      "blockClass": ["title-section","title-releases"]
+    }
+  },
+
+  "list-context.product-list#releases": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#demo-categories"],
+    "props": {
+      "orderBy": "OrderByReleaseDateDESC"
+    },
+    "title": "Collection - Best Sellers"
+  },
+
+  "flex-layout.row#discounts":{
+    "children":[
+      "flex-layout.col#discounts"
+    ],
+    "props":{
+      "blockClass": ["centralizer","Discounts","line"]
+    },
+    "title":"Row - Discounts"
+  },
+
+  "flex-layout.col#discounts":{
+    "children":[
+      "rich-text#title-discounts",
+      "list-context.product-list#discounts"
+    ],
+    "props":{
+      "blockClass": "discounts"
+    }
+  },
+
+  "rich-text#title-discounts":{
+    "props":{
+      "text": "## ¡EN PROMOCIÓN!",
+      "blockClass": ["title-section","title-discounts"]
+    }
+  },
+
+  "list-context.product-list#discounts": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#demo-categories"],
+    "props": {
+      "orderBy": "OrderByReleaseDateDESC"
+    },
+    "title": "Collection - Best Sellers"
+  },
+
+  "slider-layout#demo-categories": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 3,
+        "phone": 2
+      },
+      "infinite": true,
+      "fullWidth": false,
+      "showNavigationArrows": "desktopOnly",
+      "showPaginationDots":"mobileOnly",
+      "blockClass": "shelf"
+    }
+  }
+
+}

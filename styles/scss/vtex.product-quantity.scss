@@ -1,0 +1,76 @@
+@import './variables.scss';
+
+.quantitySelectorContainer{
+  margin-top: 0;
+  margin-bottom: 0px;
+  :global(.vtex-dropdown__container),
+  :global(.vtex-input-prefix__group){
+    height: 49px;
+    position: relative;
+    bottom: 0;
+  }
+  :global(.vtex-numeric-stepper__minus-button-container),
+  :global(.vtex-numeric-stepper__plus-button-container){
+    height: 15px;
+    min-width: 15px;
+    max-width: 15px;
+    :global(.vtex-numeric-stepper__minus-button),
+    :global(.vtex-numeric-stepper__plus-button){
+      border: none;
+      background: transparent;
+      color: $textPrimaryColor;
+      font-weight: normal;
+      font-size: 11px;
+      min-width: 15px;
+      max-width: 15px;
+      height: 15px;
+      border-radius: 2px;
+      transition: all .12s linear;
+      &:hover{
+        color: $primaryColor;
+      }
+    }
+  }
+  :global(.vtex-numeric-stepper-container){
+    height: 70px;
+    display: flex;
+    align-items: center;
+    border: 1px solid $borderColorLight;
+    border-radius: $radius;
+
+    :global(.vtex-numeric-stepper__input){
+      width: 100%;
+      border: none;
+      background: transparent;
+      font-size: 22px;
+      font-weight: 400;
+    }
+  }
+}
+
+:global(.vtex-flex-layout-0-x-flexColChild--col-quantity){
+  :global(.vtex-dropdown__container),
+  :global(.vtex-input-prefix__group){
+    height: 70px;
+  }
+  :global(.vtex-numeric-stepper__minus-button-container),
+  :global(.vtex-numeric-stepper__plus-button-container){
+    height: 25px;
+    min-width: 25px;
+    max-width: 25px;
+    :global(.vtex-numeric-stepper__minus-button),
+    :global(.vtex-numeric-stepper__plus-button){
+      font-size: 28px;
+      min-width: 28px;
+      max-width: 28px;
+      height: 28px;
+      color: #B9B9B9;
+      &:hover{
+        color: $primaryColor;
+      }
+    }
+  }
+  :global(.vtex-numeric-stepper__input){
+    font-size: 24px;
+  }
+}

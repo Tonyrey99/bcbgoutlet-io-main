@@ -1,0 +1,104 @@
+{
+  "store.storelocator": {
+    "blocks": ["flex-layout.row#store-locator-title", "flex-layout.row#container"]
+  },
+
+  "flex-layout.row#store-locator-title": {
+    "children": ["flex-layout.col#store-locator-title"],
+    "props":{
+      "blockClass": ["centralizer","row-store-locator-title"]
+    }
+  },
+  "flex-layout.row#container": {
+    "children": ["store-list"],
+    "props":{
+      "blockClass": ["centralizer","row-store-locator-content"]
+    }
+  },
+  "flex-layout.col#store-locator-title": {
+    "children": ["rich-text#store-locator-title"],
+    "props": {
+      "blockClass": "title",
+      "preventVerticalStretch": true,
+      "horizontalAlign":"center"
+    }
+  },
+  "rich-text#store-locator-title": {
+    "props": {
+      "text": "## Encuentra la tienda más cercana",
+      "blockClass": "titlm"
+    }
+  },
+  "store.storedetail": {
+    "blocks": ["flex-layout.row#store-locator-titleStore", "store-group"]
+  },
+  "store-group": {
+    "children": ["flex-layout.row#containerStore"],
+    "props": {
+      "title": "{storeName} Store"
+    }
+  },
+  "flex-layout.row#store-locator-titleStore": {
+    "children": ["flex-layout.col#store-locator-titleStore"]
+  },
+  "flex-layout.row#containerStore": {
+    "children": ["flex-layout.col#detail", "flex-layout.col#store"]
+  },
+  "flex-layout.col#store-locator-titleStore": {
+    "children": ["rich-text#store-locator-titleStore"],
+    "props": {
+      "blockClass": "title",
+      "preventVerticalStretch": true,
+      "horizontalAlign": "center"
+    }
+  },
+  "rich-text#store-locator-titleStore": {
+    "props": {
+      "text": "## Detalle de tienda",
+      "blockClass": "titdetalle"
+    }
+  },
+  "flex-layout.col#detail": {
+    "children": [
+      "store-name",
+      "store-address",
+      "store-hours",
+      "store-instructions",
+      "store-back-link"
+    ],
+    "props": {
+      "width": "30%",
+      "preventVerticalStretch": true,
+      "verticalAlign": "middle"
+    }
+  },
+  "flex-layout.col#store": {
+    "children": ["store-map"],
+    "props": {
+      "width": "70%"
+    }
+  },
+  "store-hours": {
+    "props": {
+      "label": "Horario:",
+      "format": "12h"
+    }
+  },
+  "store-back-link": {
+    "props": {
+      "label": "Volver a todas las tiendas",
+      "blockClass": "regresarlocator"
+    }
+  },
+  "store-instructions": {
+    "props": {
+      "label": ""
+    }
+  },
+
+  "store-map":{
+    "props":{
+      "height": "400px"
+    }
+  }
+}

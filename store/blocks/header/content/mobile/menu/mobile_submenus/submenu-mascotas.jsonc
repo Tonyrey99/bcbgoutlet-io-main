@@ -1,0 +1,30 @@
+{
+  "menu-item#mobile_departamento-mascotas": {
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "primaryItemMenu",
+      "itemProps": {
+        "type": "internal",
+        "noFollow": false,
+        "tagTitle": "Mascotas",
+        "text": "Mascotas"
+      }
+    },
+    "blocks":[
+      "vtex.menu@2.x:submenu.accordion#mobile_departamento-mascotas"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#mobile_departamento-mascotas":{
+    "children":[
+      "vtex.menu@2.x:menu#mobile_submenu-mascotas"
+    ]
+  },
+  "vtex.menu@2.x:menu#mobile_submenu-mascotas":{
+    "props":{
+      "blockClass": "submenuAccordion",
+      "categoryId": 454,
+      "orientation": "vertical"
+    }
+  }
+}

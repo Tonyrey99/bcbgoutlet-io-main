@@ -1,0 +1,30 @@
+{
+  "menu-item#mobile_departamento-equipaje-viajes": {
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "primaryItemMenu",
+      "itemProps": {
+        "type": "internal",
+        "noFollow": false,
+        "tagTitle": "Equipaje y viajes",
+        "text": "Equipaje y viajes"
+      }
+    },
+    "blocks":[
+      "vtex.menu@2.x:submenu.accordion#mobile_departamento-equipaje-viajes"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#mobile_departamento-equipaje-viajes":{
+    "children":[
+      "vtex.menu@2.x:menu#mobile_submenu-equipaje-viajes"
+    ]
+  },
+  "vtex.menu@2.x:menu#mobile_submenu-equipaje-viajes":{
+    "props":{
+      "blockClass": "submenuAccordion",
+      "categoryId": 471,
+      "orientation": "vertical"
+    }
+  }
+}

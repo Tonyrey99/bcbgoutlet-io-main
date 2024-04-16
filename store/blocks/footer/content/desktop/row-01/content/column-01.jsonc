@@ -1,0 +1,114 @@
+{
+  "flex-layout.col#footer-col-01":{
+    "children":[
+      "rich-text#footer-title-01",
+      "rich-text#whatsapp",
+      "rich-text#telephone",
+      "rich-text#email",
+      "rich-text#office-hour",
+      "flex-layout.row#social-media"
+    ],
+    "props":{
+      "blockClass":["footer-col","footer-col--01"],
+      "preventVerticalStretch":true
+    }
+  },
+
+  //title
+  "rich-text#footer-title-01":{
+    "props":{
+      "text":"**ATENCIÓN AL CLIENTE**",
+      "blockClass":"footer-title-primary"
+    }
+  },
+
+  //whatsapp
+  "rich-text#whatsapp":{
+    "props":{
+      "text":"[(62) 98566-0207](https://api.whatsapp.com/send?phone=+5562985660207&target=_blank)",
+      "blockClass":["store-info","whatsapp"]
+    }
+  },
+  //whatsapp
+  "rich-text#telephone":{
+    "props":{
+      "text":"[(62) 3432-1035](tel:+556234321035)",
+      "blockClass":["store-info","telephone"]
+    }
+  },
+  //whatsapp
+  "rich-text#email":{
+    "props":{
+      "text":"[¡Contáctanos!](/contato)",
+      "blockClass":["store-info","email"]
+    }
+  },
+  //whatsapp
+  "rich-text#office-hour":{
+    "props":{
+      "text":"Lunes a Viernes - 09 - 19h \n Sabado desde 09 - 12h",
+      "blockClass":["store-info","office-hour"]
+    }
+  },
+
+  //social media
+  "flex-layout.row#social-media":{
+    "children":[
+      "image#facebook",
+      "image#twitter",
+      "image#instagram",
+      "image#youtube"
+    ],
+    "props":{
+      "blockClass":"social-media",
+      "preventHorizontalStretch":true,
+      "colGap":"6"
+    }
+  },
+
+  "image#facebook":{
+    "props":{
+      "src":"assets/icons/icon-facebook.svg",
+      "blockClass":["social-media-icon","facebook","no-radius"],
+      "link":{
+        "url":"https://www.facebook.com",
+        "newTab":true,
+        "attributeTitle":"Facebook"
+      }
+    }
+  },
+  "image#twitter":{
+    "props":{
+      "src":"assets/icons/icon-twitter.svg",
+      "blockClass":["social-media-icon","twitter","no-radius"],
+      "link":{
+        "url":"https://www.twitter.com",
+        "newTab":true,
+        "attributeTitle":"Twitter"
+      }
+    }
+  },
+  "image#instagram":{
+    "props":{
+      "src":"assets/icons/icon-instagram.svg",
+      "blockClass":["social-media-icon","instagram","no-radius"],
+      "link":{
+        "url":"https://www.instagram.com",
+        "newTab":true,
+        "attributeTitle":"Instagram"
+      }
+    }
+  },
+  "image#youtube":{
+    "props":{
+      "src":"assets/icons/icon-youtube.svg",
+      "blockClass":["social-media-icon","youtube","no-radius"],
+      "link":{
+        "url":"https://www.youtube.com",
+        "newTab":true,
+        "attributeTitle":"Instagram"
+      }
+    }
+  }
+
+}

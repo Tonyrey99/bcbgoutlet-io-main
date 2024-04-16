@@ -1,0 +1,26 @@
+///////// DEALS
+.triggerContainer{
+  cursor: pointer;
+  position: relative;
+  top: 1px;
+}
+.paper{
+  &.paper--deals{
+    max-width: 768px;
+    padding-bottom: 15px;
+  }
+}
+
+.container--desktop-search{
+  .paper{
+    width: 80vw;
+    margin-top: -75vh;
+    &.paperNotFullScreen{
+      background: transparent;
+    }
+  }
+}
+
+.triggerContainer--quickview{
+
+}

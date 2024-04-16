@@ -1,0 +1,36 @@
+{
+  "flex-layout.row#cards-navigation":{
+    "children":[
+      "flex-layout.col#cards-navigation"
+    ],
+    "props":{
+      "blockClass":["centralizer","cards-navigation","line"]
+    },
+    "title":"Row - Categories Carousel"
+  },
+
+  "flex-layout.col#cards-navigation":{
+    "children":[
+      //"rich-text#title-cards-navigation",
+      "slider-cards#cards-navigation"
+    ]
+  },
+
+  "slider-cards#cards-navigation":{
+    "props":{
+      "autoplay": {
+        "timeout": 5000
+      }
+    }
+  },
+
+  "rich-text#title-cards-navigation":{
+    "props":{
+      "text": "## Navegue por Categorias",
+      "blockClass": ["title-section", "title-cards-navigation"],
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER"
+    }
+  }
+
+}

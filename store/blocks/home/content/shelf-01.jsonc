@@ -1,0 +1,33 @@
+{
+  "flex-layout.row#home-shelf-01":{
+    "children":[
+      "flex-layout.col#home-shelf-01"
+    ],
+    "props":{
+      "blockClass":["centralizer","home-shelf-01","line"]
+    },
+    "title": "Row - Shelf 01"
+  },
+  "flex-layout.col#home-shelf-01":{
+    "children":[
+      "rich-text#home-shelf-01-title",
+      "list-context.product-list#home-shelf-01"
+    ],
+    "props":{
+      "preventVerticalStretch":true
+    }
+  },
+  "rich-text#home-shelf-01-title": {
+    "props": {
+      "text": "## Summer",
+      "blockClass": ["title-section","title-shelf-01"]
+    }
+  },
+  "list-context.product-list#home-shelf-01": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#demo-products"],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC"
+    }
+  }
+}

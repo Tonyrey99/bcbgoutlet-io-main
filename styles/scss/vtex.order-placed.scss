@@ -1,0 +1,22 @@
+@import './variables';
+
+:global(.vtex-flex-layout-0-x-flexRowContent--confirmationButtons),
+.orderListItem{
+  :global(.vtex-button){
+    background-color: $primaryColor;
+    border-radius: 5px;
+    border: none;
+    transition: all .12s linear;
+    height: 45px;
+    :global(.vtex-button__label){
+      color: white;
+      font-size: $fontSizePrimary;
+    }
+    &:hover{
+      background-color: white;
+      :global(.vtex-button__label){
+        color: $primaryColor;
+      }
+    }
+  }
+}

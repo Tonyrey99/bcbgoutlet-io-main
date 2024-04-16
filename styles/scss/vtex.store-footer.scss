@@ -1,0 +1,9 @@
+@import './variables';
+
+.footerLayout{
+  background-color: #F9F9F9;
+  padding-top: 60px;
+  @media(max-width: 1024px){
+    padding-top: 30px;
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "flex-layout.row#home-content-banner-02":{
+    "children":[
+      "flex-layout.col#home-content-banner-02"
+    ],
+    "props":{
+      "blockClass":["home-content-banner","home-content-banner-02","line"]
+    },
+    "title": "Row - Content Banner 01"
+  },
+
+  "flex-layout.col#home-content-banner-02":{
+    "children":[
+      "responsive-layout.desktop#content-banner-02",
+      "responsive-layout.mobile#content-banner-02"
+    ],
+    "props":{
+      "preventVerticalStretch":true
+    }
+  },
+
+  //desktop
+  "responsive-layout.desktop#content-banner-02":{
+    "children":["image#desktop-content-banner-02"]
+  },
+  "image#desktop-content-banner-02":{
+    "props":{
+      "src": "assets/banners/home/content-banner-02.jpg",
+      "blockClass":["home-content-banner","home-content-banner-02","no-radius"]
+    }
+  },
+
+  //mobile
+  "responsive-layout.mobile#content-banner-02":{
+    "children":["image#mobile-content-banner-02"]
+  },
+  "image#mobile-content-banner-02":{
+    "props":{
+      "src": "assets/banners/home/content-banner-mobile-03.jpg",
+      "blockClass":["home-content-banner","home-content-banner-02","no-radius"]
+    }
+  }
+}

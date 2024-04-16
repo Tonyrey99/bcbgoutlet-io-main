@@ -1,0 +1,70 @@
+{
+  "header":{
+    "blocks":["header-layout.desktop", "header-layout.mobile"]
+  },
+  "header.full":{
+    "blocks":["header-layout.desktop", "header-layout.mobile"]
+  },
+
+  "header-layout.desktop":{
+    "children":["sticky-layout#desktop-header"]
+  },
+  "header-layout.mobile":{
+    "children":["sticky-layout#mobile-header"]
+  },
+
+  //login column
+  "flex-layout.col#login":{
+    "children":["login"],
+    "props":{
+      "blockClass":["header-desktop-col","col-login"]
+    }
+  },
+  "login":{
+    "props":{
+      "showIconProfile": false,
+      "hideIconLabel": false
+    }
+  },
+
+  //wishlist column
+  "flex-layout.col#wishlist":{
+    "children":["image#header-btn-wishlist"],
+    "props":{
+      "blockClass":["header-desktop-col","col-wishlist"]
+    }
+  },
+  "image#header-btn-wishlist":{
+    "props":{
+      "src":"assets/icons/icon-heart.svg",
+      "blockClass":["header-icon","icon-wishlist","no-radius"],
+      "link":{
+        "url":"/account/#wishlsit"
+      }
+    }
+  },
+
+  //find us
+  "rich-text#find-us":{
+    "props":{
+      "text": "[Encuentra tu tienda](/maxazria/tiendas)",
+      "blockClass": "find-us"
+    }
+  },
+
+  //minicart column
+  "flex-layout.col#minicart":{
+    "children":["minicart.v2"],
+    "props":{
+      "blockClass":["header-desktop-col","col-minicart"]
+    }
+  },
+
+  //column spacer
+  "flex-layout.col#spacer":{
+    "props":{
+      "width":"grow"
+    }
+  }
+
+}

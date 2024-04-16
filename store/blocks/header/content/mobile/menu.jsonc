@@ -1,0 +1,8 @@
+{
+  "flex-layout.col#mobile-menu":{
+    "children":["drawer#mobile-menu"],
+    "props":{
+      "blockClass":["header-mobile-col","col-menu"]
+    }
+  }
+}

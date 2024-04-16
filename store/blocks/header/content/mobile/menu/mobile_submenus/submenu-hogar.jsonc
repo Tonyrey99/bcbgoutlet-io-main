@@ -1,0 +1,30 @@
+{
+  "menu-item#mobile_departamento-hogar": {
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "primaryItemMenu",
+      "itemProps": {
+        "type": "internal",
+        "noFollow": false,
+        "tagTitle": "Hogar",
+        "text": "Hogar"
+      }
+    },
+    "blocks":[
+      "vtex.menu@2.x:submenu.accordion#mobile_departamento-hogar"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#mobile_departamento-hogar":{
+    "children":[
+      "vtex.menu@2.x:menu#mobile_submenu-hogar"
+    ]
+  },
+  "vtex.menu@2.x:menu#mobile_submenu-hogar":{
+    "props":{
+      "blockClass": "submenuAccordion",
+      "categoryId": 166,
+      "orientation": "vertical"
+    }
+  }
+}

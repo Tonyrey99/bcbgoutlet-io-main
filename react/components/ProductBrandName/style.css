@@ -1,0 +1,22 @@
+.paragraphBrand{
+  margin: 0px;
+  color: #000000;
+  font-weight: 400;
+}
+
+.iconBrand{
+  display: none;
+}
+
+.highlightBrand{
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 500;
+  color: #000000;
+}
+
+.titleBrand{
+  text-transform: uppercase;
+  font-weight: normal;
+  color: #95989A;
+}

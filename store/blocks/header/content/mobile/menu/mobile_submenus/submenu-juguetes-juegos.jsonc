@@ -1,0 +1,30 @@
+{
+  "menu-item#mobile_departamento-juguetes-juegos": {
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "primaryItemMenu",
+      "itemProps": {
+        "type": "internal",
+        "noFollow": false,
+        "tagTitle": "Juguetes y Juegos",
+        "text": "Juguetes y Juegos"
+      }
+    },
+    "blocks":[
+      "vtex.menu@2.x:submenu.accordion#mobile_departamento-juguetes-juegos"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#mobile_departamento-juguetes-juegos":{
+    "children":[
+      "vtex.menu@2.x:menu#mobile_submenu-juguetes-juegos"
+    ]
+  },
+  "vtex.menu@2.x:menu#mobile_submenu-juguetes-juegos":{
+    "props":{
+      "blockClass": "submenuAccordion",
+      "categoryId": 377,
+      "orientation": "vertical"
+    }
+  }
+}

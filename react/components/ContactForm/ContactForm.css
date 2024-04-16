@@ -1,0 +1,54 @@
+.contact__form{
+  display: block;
+  max-width: 600px;
+  margin: 0 auto;
+  padding-bottom: 20px;
+}
+
+.contact__group{
+  display: block;
+  margin-bottom: 15px;
+}
+
+.contact__group .contact__label{
+  margin-bottom: 4px;
+}
+
+.contact__input{
+  box-sizing: border-box;
+  height: 40px;
+  padding: 0 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  width: 100%;
+}
+
+.contact__textarea{
+  box-sizing: border-box;
+  padding: 10px;
+  height: 100px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  width: 100%;
+}
+
+.contact__label{
+  display: block;
+}
+
+.contact__button{
+  display: flex;
+  cursor: pointer;
+  height: 40px;
+  padding: 0 40px;
+  background: #000000;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  text-transform: uppercase;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 13px;
+  font-family: Montserrat,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
+}

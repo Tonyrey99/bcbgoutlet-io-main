@@ -1,0 +1,32 @@
+{
+  //INDEX MENU
+  "flex-layout.row#desktop-menu": {
+    "props": {
+      "blockClass":["centralizer","desktop-menu"]
+    },
+    "title": "Desktop - Row Menu",
+    "children": [
+      "vtex.menu@2.x:menu#main-menu"
+    ]
+  },
+  "vtex.menu@2.x:menu#main-menu":{
+    "props":{
+      "experimentalOptimizeRendering": true,
+      "blockClass":["centralizer","desktop-menu"]
+    },
+    "children":[
+      "menu-item#item-example-01",
+      "menu-item#item-example-02",
+      "menu-item#item-example-03",
+      "menu-item#item-example-04",
+      //"menu-item#item-example-05",
+      "menu-item#item-example-06",
+      "menu-item#item-example-07",
+      "menu-item#item-example-08"
+      //"menu-item#item-marcas"
+      
+    ],
+    "title": "Desktop - Menu"
+  }
+}
+

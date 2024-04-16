@@ -1,0 +1,21 @@
+{
+
+  "flex-layout.row#capacitacion-title":{
+    "children":[
+      "rich-text#capacitacion-title"
+    ],
+    "props":{
+      "marginBottom": "7",
+      "blockClass": ["centralizer","capacitacion-title"]
+    }
+  },
+
+  "rich-text#capacitacion-title":{
+    "props":{
+      "text": "# Capacitación \n Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium optio, eaque rerum!",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER",
+      "blockClass": "capacitacion-title"
+    }
+  }
+}

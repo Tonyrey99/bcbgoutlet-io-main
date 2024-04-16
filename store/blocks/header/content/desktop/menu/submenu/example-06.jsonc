@@ -1,0 +1,118 @@
+{
+  "menu-item#item-example-06":{
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "href": "/",
+      "blockClass": ["main-item","main-item--small"],
+      "itemProps": {
+        "type": "custom",
+        "noFollow": false,
+        "tagTitle":"Descuentos",
+        "text": "Descuentos"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#example-06"
+    ]
+  },
+  "vtex.menu@2.x:submenu#example-06": {
+    "props": {
+      "width": "100%",
+      "blockClass": ["submenu","submenu--small"]
+    },
+    "children": [
+      "vtex.menu@2.x:menu#example-06"
+    ]
+  },
+
+  "vtex.menu@2.x:menu#example-06":{
+    "props":{
+      "width": "100%",
+      "blockClass": ["submenu","submenu-small"],
+      "orientation": "vertical",
+      "items": [
+        {
+          "type": "custom",
+          "href": "/",
+          "itemProps": {
+            "type": "custom",
+            "noFollow": false,
+            "tagTitle":"Example item",
+            "text": "Example item"
+          }
+        },
+        {
+          "type": "custom",
+          "href": "/",
+          "itemProps": {
+            "type": "custom",
+            "noFollow": false,
+            "tagTitle":"Example item",
+            "text": "Example item"
+          }
+        },
+        {
+          "type": "custom",
+          "href": "/",
+          "itemProps": {
+            "type": "custom",
+            "noFollow": false,
+            "tagTitle":"Example item",
+            "text": "Example item"
+          }
+        },
+        {
+          "type": "custom",
+          "href": "/",
+          "itemProps": {
+            "type": "custom",
+            "noFollow": false,
+            "tagTitle":"Example item",
+            "text": "Example item"
+          }
+        },
+        {
+          "type": "custom",
+          "href": "/",
+          "itemProps": {
+            "type": "custom",
+            "noFollow": false,
+            "tagTitle":"Example item",
+            "text": "Example item"
+          }
+        },
+        {
+          "type": "custom",
+          "href": "/",
+          "itemProps": {
+            "type": "custom",
+            "noFollow": false,
+            "tagTitle":"Example item",
+            "text": "Example item"
+          }
+        },
+        {
+          "type": "custom",
+          "href": "/",
+          "itemProps": {
+            "type": "custom",
+            "noFollow": false,
+            "tagTitle":"Example item",
+            "text": "Example item"
+          }
+        },
+        {
+          "type": "custom",
+          "href": "/",
+          "itemProps": {
+            "type": "custom",
+            "noFollow": false,
+            "tagTitle":"Example item",
+            "text": "Example item"
+          }
+        }
+      ]
+    }
+  }
+}

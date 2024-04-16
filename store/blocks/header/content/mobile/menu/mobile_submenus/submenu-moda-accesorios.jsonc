@@ -1,0 +1,30 @@
+{
+  "menu-item#mobile_departamento-moda-accesorios": {
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "primaryItemMenu",
+      "itemProps": {
+        "type": "internal",
+        "noFollow": false,
+        "tagTitle": "Moda y Accesorios",
+        "text": "Moda y Accesorios"
+      }
+    },
+    "blocks":[
+      "vtex.menu@2.x:submenu.accordion#mobile_departamento-moda-accesorios"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#mobile_departamento-moda-accesorios":{
+    "children":[
+      "vtex.menu@2.x:menu#mobile_submenu-moda-accesorios"
+    ]
+  },
+  "vtex.menu@2.x:menu#mobile_submenu-moda-accesorios":{
+    "props":{
+      "blockClass": "submenuAccordion",
+      "categoryId": 412,
+      "orientation": "vertical"
+    }
+  }
+}

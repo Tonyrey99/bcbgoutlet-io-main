@@ -1,0 +1,43 @@
+.wrapper .group{
+  margin-bottom: 30px;
+}
+
+.wrapper .group .menu{
+  padding: 0px;
+  margin: 10px 0 35px;
+}
+
+.wrapper .group > span{
+  font-size: 18px;
+  font-weight: 500;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.wrapper .group .menu > .listItem{
+  margin-bottom: 5px;
+}
+
+.wrapper .group .menu > .listItem a{
+  text-decoration: none;
+  display: flex;
+  padding: 3px 0;
+  margin-bottom: 1px;
+  color: #222;
+}
+
+.wrapper .group .menu > .listItem a:hover{
+  color: red;
+}
+
+.eq01,
+.eq02,
+.eq03,
+.eq04,
+.eq05,
+.eq06,
+.eq07,
+.eq08{
+  display: flex;
+  align-items: center;
+}

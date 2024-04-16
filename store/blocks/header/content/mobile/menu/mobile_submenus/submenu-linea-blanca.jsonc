@@ -1,0 +1,30 @@
+{
+  "menu-item#mobile_departamento-linea-blanca": {
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "primaryItemMenu",
+      "itemProps": {
+        "type": "internal",
+        "noFollow": false,
+        "tagTitle": "Línea Blanca",
+        "text": "Línea Blanca"
+      }
+    },
+    "blocks":[
+      "vtex.menu@2.x:submenu.accordion#mobile_departamento-linea-blanca"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#mobile_departamento-linea-blanca":{
+    "children":[
+      "vtex.menu@2.x:menu#mobile_submenu-linea-blanca"
+    ]
+  },
+  "vtex.menu@2.x:menu#mobile_submenu-linea-blanca":{
+    "props":{
+      "blockClass": "submenuAccordion",
+      "categoryId": 27,
+      "orientation": "vertical"
+    }
+  }
+}

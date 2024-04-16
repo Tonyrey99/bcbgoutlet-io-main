@@ -1,0 +1,16 @@
+{
+  "flex-layout.col#mobile-logo":{
+    "children":["logo#mobile"],
+    "props":{
+      "blockClass":["header-mobile-col","col-logo"]
+    }
+  },
+  "logo#mobile":{
+    "props":{
+      "title":"Logo",
+      "href":"/",
+      "url":"assets/logo-bcbg.svg",
+      "width":"180"
+    }
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "flex-layout.row#capacitacion-banners":{
+    "children":[
+      "flex-layout.col#capacitacion-banner-col-01",
+      "flex-layout.col#capacitacion-banner-col-02"
+    ],
+    "props":{
+      "blockClas": ["centralizer","capacitacion-banners"]
+    }
+  },
+
+  //----------------- Columna 1
+
+  "flex-layout.col#capacitacion-banner-col-01":{
+    "children":[
+      "image#capacitacion-banner"
+    ],
+    "props":{
+      "horizontalAlign": "center"
+    }
+  },
+
+  "image#capacitacion-banner": {
+    "props": {
+      "src": "assets/banners/home/content-banner-mobile-01.jpg"
+    }
+  },
+
+  //----------------- Columna 2
+
+  "flex-layout.col#capacitacion-banner-col-02":{
+    "children":[
+      "slider-layout#capacitacion-slider"
+    ],
+    "props":{
+      "horizontalAlign": "center"
+    }
+  },
+
+  "slider-layout#capacitacion-slider": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "carousel"
+    },
+    "children": [
+      "image#capacitacion-image-01",
+      "image#capacitacion-image-02",
+      "image#capacitacion-image-03"
+    ]
+  },
+
+  "image#capacitacion-image-01":{
+    "props":{
+      "src": "assets/banners/home/main-banner-mobile-01.jpg"
+    }
+  },
+
+  "image#capacitacion-image-02":{
+    "props":{
+      "src": "assets/banners/home/content-banner-mobile-01.jpg"
+    }
+  },
+
+  "image#capacitacion-image-03":{
+    "props":{
+      "src": "assets/banners/home/content-banner-mobile-03.jpg"
+    }
+  }
+
+}

@@ -1,0 +1,67 @@
+{
+  "flex-layout.row#mini-banners_2":{
+    "children":[
+      "list-context.image-list#mini-banners_2"
+    ],
+    "props":{
+      "blockClass":["centralizer","mini-banners","line"]
+    },
+    "title":"Row - Mini banners"
+  },
+
+  "list-context.image-list#mini-banners_2": {
+    "children":["slider-layout#mini-banners_2"],
+    "props":{
+      "preload":true,
+      "maxHeight":210,
+      "blockClass":["mini-banners"],
+      "images":[
+        {
+          "image": "assets/banners/home/mini-banner.png",
+          "description": "something something",
+          "link":{
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/banners/home/mini-banner.png",
+          "description": "something something",
+          "link":{
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/banners/home/mini-banner.png",
+          "description": "something something",
+          "link":{
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/banners/home/mini-banner.png",
+          "description": "something something",
+          "link":{
+            "url": "/"
+          }
+        }
+      ]
+    }
+  },
+
+  "slider-layout#mini-banners_2":{
+    "props":{
+      "itemsPerPage":{
+        "desktop":4,
+        "tablet":3,
+        "phone":1
+      },
+      "autoplay": {
+        "timeout": 5000
+      },
+      "showNavigationArrows": "desktopOnly",
+      "blockClass":"mini-banners",
+      "infinite": false
+    }
+  }
+
+}

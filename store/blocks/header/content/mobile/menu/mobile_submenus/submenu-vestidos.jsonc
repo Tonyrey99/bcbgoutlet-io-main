@@ -1,0 +1,30 @@
+{
+  "menu-item#mobile_vestidos": {
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "primaryItemMenu",
+      "itemProps": {
+        "type": "internal",
+        "noFollow": false,
+        "tagTitle": "VESTIDOS",
+        "text": "VESTIDOS"
+      }
+    },
+    "blocks":[
+      "vtex.menu@2.x:submenu.accordion#mobile_vestidos"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#mobile_vestidos":{
+    "children":[
+      "vtex.menu@2.x:menu#mobile_submenu-vestidos"
+    ]
+  },
+  "vtex.menu@2.x:menu#mobile_submenu-vestidos":{
+    "props":{
+      "blockClass": "submenuAccordion",
+      "categoryId": 1,
+      "orientation": "vertical"
+    }
+  }
+}

@@ -1,0 +1,83 @@
+@media screen and (max-width: 767px) {
+  .container {
+    flex-wrap: wrap;
+  }
+}
+
+.storesListCol {
+  margin-right: 1rem;
+}
+@media screen and (max-width: 767px) {
+  .storesListCol {
+    width: 100%;
+    margin-right: 0;
+  }
+}
+
+.addressList {
+  height: 275px;
+  padding-left: 0;
+  overflow-y: auto;
+}
+.addressList::-webkit-scrollbar-thumb {
+  border-radius: 2px;
+  background-color: #e9e9e9;
+}
+.addressList::-webkit-scrollbar-track {
+  border-radius: 2px;
+  background-color: white;
+}
+.addressList::-webkit-scrollbar {
+  width: 8px;
+  background-color: transparent;
+}
+@media screen and (min-width: 768px) {
+  .addressList {
+    height: 550px;
+  }
+}
+.addressListItem {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+.addressListItem .addressStoreName {
+  font-size: 0.85rem;
+}
+.addressListItem .addressListLink {
+  margin-top: 0.5rem;
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: #000;
+}
+
+@media screen and (max-width: 767px) {
+  .storesMapCol {
+    width: 100%;
+  }
+}
+
+.listingMapContainer {
+  height: 550px !important;
+}
+
+.backlinkContainer {
+  margin-bottom: 0.5rem;
+}
+
+.backlink {
+  font-weight: 700;
+  color: #000;
+}
+
+.addressContainer {
+  margin-top: 1rem;
+}
+
+.hoursContainer {
+  margin-top: 1rem;
+}
+
+.instructionsContainer {
+  margin-top: 1rem;
+}

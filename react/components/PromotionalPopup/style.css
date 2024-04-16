@@ -1,0 +1,91 @@
+.promotionalPopupOverlay{
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0,0,0,.5);
+  transition: opacity .12s linear;
+}
+
+.promotionalPopupOverlay--active{
+  opacity: 1;
+  filter: alpha(opacity=100);
+  display: block;
+}
+
+.promotionalPopupOverlay .promotionalPopup__container{
+  width: 100%;
+  border-radius: 10px;
+  background-color: white;
+  overflow: hidden;
+}
+
+@media(max-width: 480px){
+  .promotionalPopupOverlay .promotionalPopup__container{
+    max-width: 100%;
+  }
+}
+
+@media(min-width: 481px){
+  .promotionalPopupOverlay .promotionalPopup__container{
+    max-width: 500px;
+  }
+}
+
+.promotionalPopupOverlay :global(.vtex-rich-text-0-x-strong--title-newsletter){
+  text-align: center!important;
+}
+
+.promotionalPopup__content{
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  padding: 0 20px 20px;
+}
+
+.promotionalPopup__content :global(.vtex-rich-text-0-x-wrapper--title-newsletter),
+.promotionalPopup__content :global(.vtex-rich-text-0-x-paragraph--title-newsletter){
+  width: 100%;
+  text-align: center;
+  max-width: initial;
+}
+
+.promotionalPopup__content :global(.vtex-button){
+  height: 42px!important;
+}
+
+.promotionalPopup__header{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.promotionalPopup__closeButton{
+  background: transparent;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.promotionalPopup__container :global(.vtex-store-newsletter-1-x-newsletterForm) :global(.vtex-input-prefix__group){
+  width: 100%;
+  border: 1px solid black!important;
+}
+
+.promotionalPopup__container
+  :global(.vtex-store-newsletter-1-x-nameInputContainer),
+.promotionalPopup__container
+  :global(.vtex-store-newsletter-1-x-emailInputContainer),
+.promotionalPopup__container
+  :global(.vtex-store-newsletter-1-x-formSubmitContainer){
+  max-width: 100%!important;
+}
+
+.promotionalPopup__container
+  :global(.vtex-store-newsletter-1-x-formSubmitContainer)
+    :global(.vtex-button){
+  width: 100%;
+}

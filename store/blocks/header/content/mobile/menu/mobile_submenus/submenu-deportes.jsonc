@@ -1,0 +1,30 @@
+{
+  "menu-item#mobile_departamento-deportes": {
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "primaryItemMenu",
+      "itemProps": {
+        "type": "internal",
+        "noFollow": false,
+        "tagTitle": "Deportes",
+        "text": "Deportes"
+      }
+    },
+    "blocks":[
+      "vtex.menu@2.x:submenu.accordion#mobile_departamento-deportes"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#mobile_departamento-deportes":{
+    "children":[
+      "vtex.menu@2.x:menu#mobile_submenu-deportes"
+    ]
+  },
+  "vtex.menu@2.x:menu#mobile_submenu-deportes":{
+    "props":{
+      "blockClass": "submenuAccordion",
+      "categoryId": 374,
+      "orientation": "vertical"
+    }
+  }
+}
