@@ -1,7 +1,7 @@
 {
   "vendor": "bcbgmx",
   "name": "store",
-  "version": "1.7.57",
+  "version": "1.7.59",
   "builders": {
     "styles": "2.x",
     "store": "0.x",

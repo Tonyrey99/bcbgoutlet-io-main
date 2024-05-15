@@ -102,7 +102,8 @@
       "menu-item#mobile_girls",
       "menu-item#mobile_descuentos",
       "menu-item#mobile_factory",
-      "menu-item#mobile_bcbg-generation"
+      "menu-item#mobile_bcbg-generation",
+      "menu-item#mobile_promo"
     ],
     "props":{
       "orientation":"vertical",
