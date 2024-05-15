@@ -16,7 +16,7 @@
   },
   "dependencies": {
     "vtex.formatted-price": "0.x",
-    "vtex.list-context": "0.x",
+    "vtex.list-context": "0.x", 
     "vtex.store-newsletter": "1.x",
     "vtex.product-context": "0.x",
     "vtex.order-manager": "0.x",
