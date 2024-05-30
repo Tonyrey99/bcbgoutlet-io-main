@@ -22,13 +22,10 @@
       "flex-layout.row#mobile-images",
       "flex-layout.row#mobile-name-product",
       "product-separator",
-      "flex-layout.row#mobile-similar-product-variants",
-      "flex-layout.row#tools",
       "flex-layout.row#mobile-row-sku-selector",
       "flex-layout.row#mobile-row-details",
       "discount-phrase",
       "flex-layout.row#mobile-row-shipping-calculator",
-      "show-together",
       "flex-layout.row#deals",
       "flex-layout.row#description",
       "flex-layout.row#specifications-title",
@@ -36,13 +33,6 @@
       "flex-layout.row#reviews",
       "flex-layout.row#crosseling"
     ]
-  },
-
-  "flex-layout.row#mobile-similar-product-variants":{
-    "children":["similar-products-variants"],
-    "props":{
-      "blockClass": ["similar-product-variants","centralizer"]
-    }
   },
 
   "flex-layout.row#mobile-row-details":{
@@ -59,12 +49,13 @@
     "children":[
       "flex-layout.row#list-price-savings",
       "flex-layout.row#selling-price",
-      "product-installments",
+      //"product-installments",
       "product-separator",
       //"product-assembly-options",
       "flex-layout.row#buy-button",
-      "product-gifts",
       "flex-layout.row#stock-alert",
+      "product-gifts",
+      "show-together",
       "availability-notify"
     ],
     "props":{
@@ -243,7 +234,6 @@
     "props": {
       "width": "60%",
       "rowGap": 0,
-      "preventVerticalStretch": true,
       "blockClass": "col-image-pdp"
     }
   },
@@ -283,49 +273,29 @@
     "children": [
       "flex-layout.row#product-name",
       "product-identifier.product",
-      "short-description",
       "product-separator",
-      "flex-layout.row#list-price-savings",
-      "flex-layout.row#selling-price",
-      "product-installments",
+      "product-list-price#pdp",
+      "flex-layout.row#selling-price-pdp",
+      //"product-installments",
       "discount-phrase",
       "product-separator",
-      "similar-products-variants",
-      "flex-layout.row#tools",
       "sku-selector",
       //"product-assembly-options",
       "flex-layout.row#buy-button",
       "flex-layout.row#stock-alert",
+      "show-together",
       "product-gifts",
       //"sold-and-delivered",
-      "availability-notify",
-      "shipping-simulator",
-      "show-together"
+      "availability-notify"
+      //"shipping-simulator"
       //"rich-text#change-policy"
       //"share#default"
     ]
   },
 
-  "flex-layout.row#tools":{
-    "children":[
-      "modal-trigger#modal-sizetable"
-    ],
-    "props":{
-      "preventHorizontalStretch": true,
-      "blockClass": ["row-tools","centralizer"]
-    },
-    "title": "Linha Ferramentas"
-  },
-
-  "modal-trigger#modal-sizetable":{
-    "children": [
-      "rich-text#trigger-sizetable",
-      "modal-layout#sizetable"
-    ]
-  },
   "rich-text#trigger-sizetable":{
     "props":{
-      "text": "Tabla de Tallas",
+      "text": "Como Medir",
       "blockClass": "trigger-sizetable"
     }
   },
@@ -333,7 +303,6 @@
     "children": [
       "image#size-table"
     ]
-    
   },
   "image#size-table":{
     "props":{
@@ -377,7 +346,43 @@
     "children": [
       //"flex-layout.col#pdp-quantity",
       //"flex-layout.col#buyButton-01",
-      "flex-layout.col#buyButton-02"
+      //"flex-layout.col#buyButton-02"
+      "flex-layout.col#buyButton",
+      "flex-layout.col#tools"
+    ]
+  },
+
+  "flex-layout.col#tools":{
+    "children":[
+      "modal-trigger#modal-sizetable"
+    ],
+    "props":{
+      "width": "30%",
+      "preventHorizontalStretch": true,
+      "blockClass": ["row-tools","centralizer"]
+    },
+    "title": "Linha Ferramentas"
+  },
+
+  "modal-trigger#modal-sizetable":{
+    "children": [
+      "rich-text#trigger-sizetable",
+      "modal-layout#sizetable"
+    ]
+  },
+
+  "flex-layout.col#buyButton": {
+    "children": [
+      "show-together-popup"
+    ],
+    "props": {
+      "width": "70%"
+    }
+  },
+
+  "show-together-popup": {
+    "children": [
+      "add-to-cart-button#pdp2"
     ]
   },
 

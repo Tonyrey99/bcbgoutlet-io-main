@@ -6,7 +6,7 @@ const SoldAndDelivered = () => {
 
   const productContextValue = useProduct()
 
-  console.log("productContextValue --> ", productContextValue)
+  //console.log("productContextValue --> ", productContextValue)
 
   return (
     <>

@@ -6,7 +6,7 @@ const DiscountPhrase = () => {
 
   const productContextValue = useProduct()
 
-  console.log("productContextValue --> ", productContextValue)
+  //console.log("productContextValue --> ", productContextValue)
 
   const [listPrice, setListPrice] = useState(productContextValue.selectedItem.sellers[0].commertialOffer.ListPrice)
   const [sellingPrice, setSellingPrice] = useState(productContextValue.selectedItem.sellers[0].commertialOffer.Price)
@@ -21,17 +21,13 @@ const DiscountPhrase = () => {
   }, [])
 
   return (
-    <>
+    sellingPrice < listPrice && (
       <div className={`${styles.wrapper}`}>
-        {
-          sellingPrice < listPrice && (
-            <p className={styles.paragraph}>
-              <span className={styles.asterisco}>*</span> En mercancia con descuento no se aceptan cambios ni devoluciones.
-            </p>
-          )
-        }
+        <p className={styles.paragraph}>
+          <span className={styles.asterisco}>*</span> En mercancia con descuento no se aceptan cambios ni devoluciones.
+        </p>
       </div>
-    </>
+    )
   )
 
 }

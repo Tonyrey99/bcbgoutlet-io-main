@@ -128,6 +128,9 @@
 .flexRowContent--row-buyButton{
   display: flex;
   align-items: center;
+  column-gap: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 //product specifications
@@ -224,6 +227,7 @@
 }
 
 .flexRowContent--row-stock-alert{
+  margin-bottom: 10px;
   .stretchChildrenWidth{
     display: flex;
     justify-content: flex-start;
@@ -292,11 +296,4 @@
 
 .flexRow--productSpecificationGroupName{
   display: none;
-}
-
-.flexRow--mobile-row-shipping-calculator{
-  .stretchChildrenWidth{
-    display: flex!important;
-    flex-direction: column!important;
-  }
 }

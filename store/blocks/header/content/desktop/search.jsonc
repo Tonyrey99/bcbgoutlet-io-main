@@ -51,7 +51,7 @@
   "autocomplete-result-list.v2#desktop":{
     "blocks":["product-summary.shelf#autocomplete"],
     "props":{
-      "maxSuggestedProducts": 4,
+      "maxSuggestedProducts": 3,
       "__unstableProductOriginVtex":true
     }
   }

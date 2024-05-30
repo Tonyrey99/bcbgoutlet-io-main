@@ -29,6 +29,7 @@ const ShowTogether = ( props ) => {
     //.then(response => response.json())
     .then(data => {
       if(data.length>0){
+        //console.log("product DATA --> ", data)
         setShowTogether(true)
         setItems(data)
       }
@@ -94,7 +95,7 @@ const ShowTogether = ( props ) => {
 
 ShowTogether.defaultProps = {
   isActive: true,
-  title: 'Compre también',
+  title: 'Combina Con:',
   subtitle: 'Haz click y agrega a tu bolsa',
   buyButtonLabel: 'agregar'
 }

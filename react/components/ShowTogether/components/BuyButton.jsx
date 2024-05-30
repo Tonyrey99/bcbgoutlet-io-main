@@ -49,9 +49,11 @@ const BuyButton = (props) => {
     setLabel("agregado!")
   }
 
+  //console.log("PROPS RECEBIDO --> ", props.data.link)
+
   return (
     <>
-      <div className={styles.showTogether__buyButton} onClick={addToCartInit}>
+      <a className={styles.showTogether__buyButton} href={props.data.link} /*onClick={addToCartInit}*/>
         {
           !isBuyLoading ? (
             <>
@@ -61,7 +63,7 @@ const BuyButton = (props) => {
             <Spinner color="currentColor" size={15} />
           )
         }
-      </div>
+      </a>
     </>
   )
 

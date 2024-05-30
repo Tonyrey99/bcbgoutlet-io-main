@@ -2,6 +2,11 @@
 # yarn lockfile v1
 
 
+react-image-zooom@^1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/react-image-zooom/-/react-image-zooom-1.2.0.tgz#4c85043d53b075f1c3dd75d3aeb4acdb22a17a3a"
+  integrity sha512-EzAhLpJj5QGgKZDuGjqpxnuMqtkro6+9k8xU3VtEbqJbnC9NPcQtx4sNGEtcfutbsw7oWCTziVxH/mYd1PG3oA==
+
 "vtex.add-to-cart-button@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.add-to-cart-button@0.28.0/public/@types/vtex.add-to-cart-button":
   version "0.28.0"
   resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.add-to-cart-button@0.28.0/public/@types/vtex.add-to-cart-button#9d9b0ead453d431c1a5277077614735851526e61"

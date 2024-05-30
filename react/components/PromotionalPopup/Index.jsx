@@ -20,22 +20,18 @@ const PromotionalPopup = ({ children, isSubcriptionActive }) => {
   }, []);
 
   return (
-    <>
-      {
-        isSubcriptionActive && (
-          <div id="promotionalPopupOverlay" className={`${styles.promotionalPopupOverlay} ${isModalVisible}`}>
-            <div className={styles.promotionalPopup__container}>
-              <div className={styles.promotionalPopup__header}>
-                <button className={styles.promotionalPopup__closeButton} onClick={closeModal}>X</button>
-              </div>
-              <div className={styles.promotionalPopup__content}>
-                { children }
-              </div>
-            </div>
+    isSubcriptionActive && (
+      <div id="promotionalPopupOverlay" className={`${styles.promotionalPopupOverlay} ${isModalVisible}`}>
+        <div className={styles.promotionalPopup__container}>
+          <div className={styles.promotionalPopup__header}>
+            <button className={styles.promotionalPopup__closeButton} onClick={closeModal}>X</button>
           </div>
-        )
-      }
-    </>
+          <div className={styles.promotionalPopup__content}>
+            { children }
+          </div>
+        </div>
+      </div>
+    )
   )
 }
 

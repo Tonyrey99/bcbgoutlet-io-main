@@ -2,7 +2,9 @@
   "name": "react",
   "version": "1.0.0",
   "description": "react app",
-  "dependencies": {},
+  "dependencies": {
+    "react-image-zooom": "^1.2.0"
+  },
   "devDependencies": {
     "vtex.add-to-cart-button": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.add-to-cart-button@0.28.0/public/@types/vtex.add-to-cart-button",
     "vtex.availability-notify": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.availability-notify@1.8.6/public/@types/vtex.availability-notify",

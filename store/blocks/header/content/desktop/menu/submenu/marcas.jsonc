@@ -17,14 +17,14 @@
     //]
   }
   //"vtex.menu@2.x:submenu#marcas": {
-  //  "props": {
-  //    "width": "100%",
-  //    "blockClass": ["submenu","submenu--small"]
-  //  },
-  //  "children": [
-  //    "vtex.menu@2.x:menu#marcas"
-  //  ]
-  //}
+    //"props": {
+      //"width": "100%",
+      //"blockClass": ["submenu","submenu--small"]
+    //},
+    //"children": [
+      //"vtex.menu@2.x:menu#marcas"
+    //]
+  //},
 
   //"vtex.menu@2.x:menu#marcas":{
     //"props":{
@@ -32,36 +32,36 @@
       //"blockClass": ["submenu","submenu-small"],
       //"orientation": "vertical",
       //"items": [
-      //  {
-      //    "type": "custom",
-      //    "href": "/adidas",
-      //    "itemProps": {
-      //      "type": "custom",
-      //      "noFollow": false,
-      //      "tagTitle": "Adidas",
-      //      "text": "Adidas"
-      //    }
-      //  },
-      //  {
-      //    "type": "custom",
-      //    "href": "/altra",
-      //    "itemProps": {
-      //      "type": "custom",
-      //      "noFollow": false,
-      //      "tagTitle": "Altra",
-      //      "text": "Altra"
-      //    }
-      //  },
-      //  {
-      //    "type": "custom",
-      //    "href": "/nike",
-      //    "itemProps": {
-      //      "type": "custom",
-      //      "noFollow": false,
-      //      "tagTitle": "Nike",
-      //      "text": "Nike"
-      //    }
-      //  }
+        //{
+          //"type": "custom",
+          //"href": "/adidas",
+          //"itemProps": {
+            //"type": "custom",
+            //"noFollow": false,
+            //"tagTitle": "Adidas",
+            //"text": "Adidas"
+          //}
+        //},
+        //{
+         //"type": "custom",
+          //"href": "/altra",
+          //"itemProps": {
+            //"type": "custom",
+            //"noFollow": false,
+            //"tagTitle": "Altra",
+            //"text": "Altra"
+          //}
+        //},
+        //{
+          //"type": "custom",
+          //"href": "/nike",
+          //"itemProps": {
+            //"type": "custom",
+            //"noFollow": false,
+            //"tagTitle": "Nike",
+            //"text": "Nike"
+          //}
+        //}
       //]
     //}
   //}

@@ -76,7 +76,6 @@
       "product-installments",
       "product-separator",
       "similar-products-variants",
-      "flex-layout.row#tools",
       "product-summary-sku-selector",
       "flex-layout.row#buy-button",
       //"flex-layout.row#stock-alert",
@@ -98,7 +97,8 @@
   },
   "vtex.store-components:product-name": {
     "props": {
-      "blockClass": "quickview"
+      "blockClass": "quickview",
+      "showSku": false
     }
   }
 

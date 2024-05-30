@@ -47,7 +47,7 @@
   //find us
   "rich-text#find-us":{
     "props":{
-      "text": "[Encuentra tu tienda](/maxazria/tiendas)",
+      "text": "[Encuentra tu tienda **BCBGMAXAZRIA**](/maxazria/tiendas)",
       "blockClass": "find-us"
     }
   },

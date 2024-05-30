@@ -30,5 +30,10 @@
   },
   "show-together":{
     "component":"ShowTogether"
+  },
+  "show-together-popup":{
+    "allow":"*",
+    "composition":"children",
+    "component":"ShowTogetherPopup"
   }
 }

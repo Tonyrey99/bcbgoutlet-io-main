@@ -9,6 +9,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "dependencies": {
+    "-": "^0.0.1",
     "sass": "^1.51.0"
   }
 }

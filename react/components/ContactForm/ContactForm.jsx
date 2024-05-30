@@ -14,7 +14,7 @@ const ContactForm = () => {
       }
     }
 
-    console.log(data)
+    //console.log(data)
 
     const options = {
       method: 'POST',
@@ -26,7 +26,7 @@ const ContactForm = () => {
     }
 
     e.preventDefault();
-    console.log('enviando');
+    //console.log('enviando');
     fetch('/api/dataentities/CO/documents', options)
     .then(response => response.json())
     .then(response => console.log(response))

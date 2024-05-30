@@ -50,31 +50,46 @@
         }
       }
       .submenuContainer{
-        width: 200px;
+        min-width: 200px;
+        width: fit-content;
         position: absolute;
         top: 100%;
         left: 0;
         .submenuWrapper{
+          width: fit-content;
           box-shadow: 0 0 5px rgba(0,0,0,.1);
           border: none;
           border-radius: 0 0 $radius $radius;
-          width: auto;
-          min-width: 100%;
           .submenu{
             width: 100%;
             .menuContainerNav{
               width: 100%;
               padding: 0 20px;
               .menuContainer{
+                .menuItem{
+                  .styledLinkContainer{
+                    margin: 0;
+                    .styledLink{
+                      .styledLinkContent{
+                        color: black!important;
+                        padding: 5px 0!important;
+                        display: flex;
+                        &:hover{
+                          text-decoration: underline!important;
+                        }
+                      }
+                    }
+                  }
+                }
                 .styledLinkContainer{
                   margin: 0;
                   .styledLink{
                     .styledLinkContent{
-                      color: black;
-                      padding: 3px 0;
+                      color: black!important;
+                      padding: 3px 0!important;
                       display: flex;
                       &:hover{
-                        text-decoration: underline;
+                        text-decoration: underline!important;
                       }
                     }
                   }
