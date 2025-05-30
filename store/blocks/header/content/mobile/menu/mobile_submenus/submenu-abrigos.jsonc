@@ -1,0 +1,41 @@
+{
+  "menu-item#abrigos": {
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "blockClass": "primaryItemMenu",
+      "itemProps": {
+        "type": "internal",
+        "noFollow": false,
+        "tagTitle": "ABRIGOS",
+        "text": "ABRIGOS"
+      }
+    },
+    "blocks":[
+      //"vtex.menu@2.x:submenu.accordion#abrigos"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#abrigos":{
+    "children":[
+      "vtex.menu@2.x:menu#mobile_submenu-category_item"
+    ]
+  },
+  "vtex.menu@2.x:menu#mobile_submenu-category_item":{
+    "props":{
+      "blockClass": "submenuAccordion",
+      "orientation": "vertical",
+      "items": [
+        {
+          "type": "custom",
+          "href": "/ropa/abrigos",
+          "itemProps": {
+            "type": "custom",
+            "noFollow": false,
+            "tagTitle":"ABRIGOS",
+            "text": "ABRIGOS"
+          }
+        }
+      ]
+    }
+  }
+}

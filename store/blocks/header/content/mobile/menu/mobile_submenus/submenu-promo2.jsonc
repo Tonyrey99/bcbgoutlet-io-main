@@ -1,0 +1,30 @@
+{
+    "menu-item#mobile_promo2": {
+      "props": {
+        "type": "custom",
+        "highlight": false,
+        "blockClass": "primaryItemMenu",
+        "itemProps": {
+          "type": "internal",
+          "noFollow": false,
+          "tagTitle": "Friends & Family",
+          "text": "Friends & Family"
+        }
+      }
+      //"blocks":[
+      //  "vtex.menu@2.x:submenu.accordion#mobile_promo"
+      //]
+    //},
+    //"vtex.menu@2.x:submenu.accordion#mobile_promo":{
+    //  "children":[
+    //    "vtex.menu@2.x:menu#mobile_submenu-promo"
+    //  ]
+    //},
+    //"vtex.menu@2.x:menu#mobile_submenu-promo":{
+    //  "props":{
+    //    "blockClass": "submenuAccordion",
+    //    "categoryId": 1,
+    //    "orientation": "vertical"
+    //  }
+    }
+}

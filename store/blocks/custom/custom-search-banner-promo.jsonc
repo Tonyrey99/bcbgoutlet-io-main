@@ -1,41 +1,45 @@
 {
-  "store.custom#custom-search": {
-    "blocks": ["search-result-layout.customQuery#custom-search"]
+  "store.custom#custom-search-banner-promo": {
+    "blocks": ["flex-layout.row#plp-banner-row","search-result-layout.customQuery#custom-search-banner-promo"]
   },
+
   "flex-layout.row#plp-banner-row": {
-    "props":{
+    "props": {
       "horizontalAlign": "center",
-      "fullWidth": true,
+      "fullWidth": false,
       "blockClass": "plp-banner-row"
     },
     "children": ["flex-layout.col#plp-banner-col"]
   },
+
   "flex-layout.col#plp-banner-col": {
-    "props":{
-      "horizontalAlign":"center",
-      "width":"50%",
-      "blockClass":"plp-banner-col"
+    "props": {
+      "horizontalAlign": "center"
     },
     "children": ["image#plp-banner"]
   },
+
   "image#plp-banner": {
-    "props":{
+    "props": {
       "blockClass": "plp-banner-image",
-      "src": "https://bcbgmx.vtexassets.com/assets/vtex.file-manager-graphql/images/9f92611b-e178-4bab-9ce3-a2701a7c9fa0___45c2f758a16cf3616482e752cbdcbfcb.png",
-      "alt": "Banner Promo MercadoPagoHS2025",
+      "src": "https://bcbgmx.vtexassets.com/assets/vtex.file-manager-graphql/images/8f2094eb-bd87-4465-a980-14f246abf280___f0c7def2bdb2b6b2af717ab598ee101f.png",
+      "alt": "Banner ejemplo",
       "maxWidth": "100%",
-      "horizontalAlign": "center",
       "link": {
-        "url": "https://www.mercadopago.com.mx/beneficios",
-        "newTab": true
+        "url": "#"
       },
       "mobile": {
-        "src": "https://bcbgmx.vtexassets.com/assets/vtex.file-manager-graphql/images/9f92611b-e178-4bab-9ce3-a2701a7c9fa0___45c2f758a16cf3616482e752cbdcbfcb.png",
+        "src": "https://bcbgmx.vtexassets.com/assets/vtex.file-manager-graphql/images/8f2094eb-bd87-4465-a980-14f246abf280___f0c7def2bdb2b6b2af717ab598ee101f.png",
         "maxWidth": "100%"
+
+      },
+      "desktop":{ 
+        "maxWidth": "50%"
+        
       }
     }
   },
-  "search-result-layout.customQuery#custom-search": {
+  "search-result-layout.customQuery#custom-search-banner-promo": {
     "props": {
       "querySchema": {
           "orderByField": "OrderByReleaseDateDESC",

@@ -128,13 +128,14 @@
   },
   "flex-layout.col#content": {
     "children": [
-      //"flex-layout.row#banner-plp",
+      "flex-layout.row#banner-plp",
       "flex-layout.row#searchtitle",
       "flex-layout.row#searchinfo",
       "flex-layout.row#fetchprevious",
       "flex-layout.row#products",
       "flex-layout.row#fetchmore",
-      "flex-layout.row#text-seo-plp"
+      "flex-layout.row#text-seo-plp",
+      "flex-layout.row#banner-plp1"
     ],
     "props": {
       "width": "80%",
@@ -179,13 +180,15 @@
 
   "search-result-layout.mobile": {
     "children": [
+      "flex-layout.row#banner-plp",
       "flex-layout.row#breadcrumb-plp",
       "flex-layout.row#searchtitle",
       "flex-layout.row#searchinfomobile",
       "flex-layout.row#fetchprevious",
       "flex-layout.row#contentmobile",
       "flex-layout.row#fetchmore",
-      "flex-layout.row#text-seo-plp"
+      "flex-layout.row#text-seo-plp",
+      "flex-layout.row#banner-plp1"
     ],
     "props": {
       "pagination": "show-more",
@@ -215,8 +218,35 @@
 
   "image#banner-plp":{
     "props":{
-      "src": "",
-      "blockClass": "banner-plp"
+      "src": "https://bcbgmx.vtexassets.com/assets/vtex.file-manager-graphql/images/9f92611b-e178-4bab-9ce3-a2701a7c9fa0___45c2f758a16cf3616482e752cbdcbfcb.png",
+      "blockClass": "banner-plp",
+      "link":{
+        "url": "https://www.mercadopago.com.mx/beneficios",
+        "newTab": true
+      }
+    },
+    "title": "IMAGE - Banner"
+  },
+
+  "flex-layout.row#banner-plp1":{
+    "children":[
+      "image#banner-plp1"
+    ],
+    "props":{
+      "marginLeft": "5",
+      "blockClass":["centralizer","row-banner-plp1","line"]
+    },
+    "title": "ROW - Banner"
+  },
+
+  "image#banner-plp1":{
+    "props":{
+      "src": "https://bcbgmx.vtexassets.com/assets/vtex.file-manager-graphql/images/59c0c359-b0d4-4894-b63c-61f717ac1b71___2bc292424ef68a9dad6aaa78cd311629.jpg",
+      "blockClass": "banner-plp1",
+      "link": {
+        "url":"https://mpago.li/127mwL1",
+        "newTab": true
+      }
     },
     "title": "IMAGE - Banner"
   },

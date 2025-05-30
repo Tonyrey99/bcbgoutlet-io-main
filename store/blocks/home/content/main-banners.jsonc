@@ -2,6 +2,7 @@
   "flex-layout.row#main-banners": {
     "children": [
       "list-context.image-list#demo"
+      // "video#home-banner"
     ],
     "props":{
       "blockClass": ["main-banners", "line"]
@@ -43,6 +44,21 @@
           }
         }
       ]
+    }
+  },
+  "video#home-banner": {
+    "props": {
+      "width": "100%",
+      "height": "100%",
+      "loop": "false",
+      "autoPlay": true,
+      "muted": true,
+      "blockClass": "videoE1",
+      "src": "https://storage.googleapis.com/app-bcbg/videos/Banner%20BCBG%20Outlet.mp4",
+      "controlType": "none",
+      "link":{
+        "url": "/"
+      }
     }
   }
 }

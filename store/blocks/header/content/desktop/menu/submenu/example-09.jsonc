@@ -1,0 +1,119 @@
+{
+    "menu-item#item-example-09":{
+      "props": {
+        "type": "custom",
+        "highlight": false,
+        "href": "/ropa/abrigos",
+        "blockClass": ["main-item","main-item--small"],
+        "itemProps": {
+          "type": "custom",
+          "noFollow": false,
+          "tagTitle":"ABRIGOS",
+          "text": "ABRIGOS"
+        }
+      },
+      "blocks": [
+        //"vtex.menu@2.x:submenu#example-09"
+      ]
+    },
+    "vtex.menu@2.x:submenu#example-09": {
+      "props": {
+        "width": "100%",
+        "blockClass": ["submenu","submenu--small"]
+      },
+      "children": [
+        "vtex.menu@2.x:menu#example-09"
+      ]
+    },
+  
+    "vtex.menu@2.x:menu#example-09":{
+      "props":{
+        "width": "100%",
+        "blockClass": ["submenu","submenu-small"],
+        "orientation": "vertical",
+        "items": [
+          {
+            "type": "custom",
+            "href": "/",
+            "itemProps": {
+              "type": "custom",
+              "noFollow": false,
+              "tagTitle":"Example item",
+              "text": "Example item"
+            }
+          },
+          {
+            "type": "custom",
+            "href": "/",
+            "itemProps": {
+              "type": "custom",
+              "noFollow": false,
+              "tagTitle":"Example item",
+              "text": "Example item"
+            }
+          },
+          {
+            "type": "custom",
+            "href": "/",
+            "itemProps": {
+              "type": "custom",
+              "noFollow": false,
+              "tagTitle":"Example item",
+              "text": "Example item"
+            }
+          },
+          {
+            "type": "custom",
+            "href": "/",
+            "itemProps": {
+              "type": "custom",
+              "noFollow": false,
+              "tagTitle":"Example item",
+              "text": "Example item"
+            }
+          },
+          {
+            "type": "custom",
+            "href": "/",
+            "itemProps": {
+              "type": "custom",
+              "noFollow": false,
+              "tagTitle":"Example item",
+              "text": "Example item"
+            }
+          },
+          {
+            "type": "custom",
+            "href": "/",
+            "itemProps": {
+              "type": "custom",
+              "noFollow": false,
+              "tagTitle":"Example item",
+              "text": "Example item"
+            }
+          },
+          {
+            "type": "custom",
+            "href": "/",
+            "itemProps": {
+              "type": "custom",
+              "noFollow": false,
+              "tagTitle":"Example item",
+              "text": "Example item"
+            }
+          },
+          {
+            "type": "custom",
+            "href": "/",
+            "itemProps": {
+              "type": "custom",
+              "noFollow": false,
+              "tagTitle":"Example item",
+              "text": "Example item"
+            }
+          }
+        ]
+      }
+    }
+  }
+  

@@ -10,6 +10,7 @@
   "main": "index.js",
   "dependencies": {
     "-": "^0.0.1",
+    "@vtex/cli-plugin-cms": "^1.1.1",
     "sass": "^1.51.0"
   }
 }

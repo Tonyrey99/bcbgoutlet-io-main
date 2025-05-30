@@ -1,15 +1,15 @@
 {
-  "menu-item#item-marcas":{
+  "menu-item#item-marcas3":{
     "props": {
       "type": "custom",
       "highlight": false,
-      "href": "/marcas",
+      "href": "https://www.bcbgoutlet.mx",
       "blockClass": ["texto-rojo"],
       "itemProps": {
         "type": "custom",
         "noFollow": false,
-        "tagTitle": "Marcas",
-        "text": "Marcas"
+        "tagTitle": "Marcas2",
+        "text": "Marcas2"
       }
     }
   }

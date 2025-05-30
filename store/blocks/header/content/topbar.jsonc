@@ -24,13 +24,13 @@
       "showNavigationArrows": "never",
       "blockClass": "topbar"
     },
-    "children": ["rich-text#topbar_1", "rich-text#topbar_2", "rich-text#topbar_3"],
+    "children": ["rich-text#topbar_1", "rich-text#topbar_2", "rich-text#topbar_3" ],
     "title": "Slider - Topbar"
   },
 
   "rich-text#topbar_1":{
     "props":{
-      "text":"[Produtos](/) exclusivos com entrega rápida em até 12x no cartão",
+      "text":"[***NEW MARKDOWNS UP TO 80%. OFF*** ](/summer-spring) ",
       "blockClass":"topbar-info",
       "textPosition":"CENTER",
       "textAlignment":"CENTER"
@@ -39,7 +39,7 @@
   },
   "rich-text#topbar_2":{
     "props":{
-      "text":"[Produtos](/) exclusivos com entrega rápida em até 12x no cartão",
+      "text":"***Descarga la App***  [***IOS***](https://apps.apple.com/pe/app/bcbg/id1542250430) | [***Android***](https://play.google.com/store/apps/details?id=mx.bcbg.appbcbg)",
       "blockClass":"topbar-info",
       "textPosition":"CENTER",
       "textAlignment":"CENTER"
@@ -48,12 +48,11 @@
   },
   "rich-text#topbar_3":{
     "props":{
-      "text":"[Produtos](/) exclusivos com entrega rápida em até 12x no cartão",
+      "text":"[***Nueva Colección*** | COMPRAR AHORA](/lo-nuevo)",
       "blockClass":"topbar-info",
       "textPosition":"CENTER",
       "textAlignment":"CENTER"
     },
     "title": "Text 03 - Topbar"
   }
-
 }

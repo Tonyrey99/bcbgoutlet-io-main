@@ -1,32 +1,32 @@
 {
-  "menu-item#item-example-02":{
+  "menu-item#item-example-004":{
     "props": {
       "type": "custom",
       "highlight": false,
-      "href": "/",
-      "blockClass": ["main-item","main-item--small"],
+      "href": "https://www.bcbgoutlet.mx",
+      "blockClass": ["texto-rojo"],
       "itemProps": {
         "type": "custom",
         "noFollow": false,
-        "tagTitle":"Vestidos",
-        "text": "Vestidos"
+        "tagTitle":"OUTLET BCBGMAXAZRIA",
+        "text": "OUTLET BCBGMAXAZRIA"
       }
     },
     "blocks": [
-      "vtex.menu@2.x:submenu#example-02"
+      "vtex.menu@2.x:submenu#example-004"
     ]
   },
-  "vtex.menu@2.x:submenu#example-02": {
+  "vtex.menu@2.x:submenu#example-004": {
     "props": {
       "width": "100%",
-      "blockClass": ["submenu","submenu--small"]
+      "blockClass": ["texto-rojo"]
     },
     "children": [
-      "vtex.menu@2.x:menu#example-02"
+      "vtex.menu@2.x:menu#example-004"
     ]
   },
 
-  "vtex.menu@2.x:menu#example-02":{
+  "vtex.menu@2.x:menu#example-004":{
     "props":{
       "width": "100%",
       "blockClass": ["submenu","submenu-small"],

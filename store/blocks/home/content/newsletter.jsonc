@@ -10,7 +10,6 @@
     "title": "Row - Newsletter"
   },
 
-  //COL 01
   "flex-layout.col#header-newsletter":{
     "children":["rich-text#title-newsletter"],
     "props":{

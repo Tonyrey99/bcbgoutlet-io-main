@@ -1,32 +1,32 @@
 {
-  "menu-item#item-example-04":{
+  "menu-item#item-example-002":{
     "props": {
       "type": "custom",
       "highlight": false,
-      "href": "/",
-      "blockClass": ["main-item","main-item--small"],
+      "href": "https://www.bcbgoutlet.mx/",
+      "blockClass": ["texto-rojo"],
       "itemProps": {
         "type": "custom",
         "noFollow": false,
-        "tagTitle":"Accesorios",
-        "text": "Accesorios"
+        "tagTitle":"OUTLET BCBGENERATION",
+        "text": "OUTLET BCBGENERATION"
       }
     },
     "blocks": [
-      "vtex.menu@2.x:submenu#example-04"
+      "vtex.menu@2.x:submenu#example-002"
     ]
   },
-  "vtex.menu@2.x:submenu#example-04": {
+  "vtex.menu@2.x:submenu#example-002": {
     "props": {
       "width": "100%",
-      "blockClass": ["submenu","submenu--small"]
+      "blockClass": ["texto-rojo"]
     },
     "children": [
-      "vtex.menu@2.x:menu#example-04"
+      "vtex.menu@2.x:menu#example-002"
     ]
   },
 
-  "vtex.menu@2.x:menu#example-04":{
+  "vtex.menu@2.x:menu#example-002":{
     "props":{
       "width": "100%",
       "blockClass": ["submenu","submenu-small"],

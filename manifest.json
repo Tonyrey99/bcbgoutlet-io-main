@@ -1,7 +1,7 @@
 {
-  "vendor": "bcbgmx",
+  "vendor": "bcbgnewyork",
   "name": "store",
-  "version": "1.7.60",
+  "version": "1.4.60",
   "builders": {
     "styles": "2.x",
     "store": "0.x",
@@ -78,7 +78,7 @@
   },
   "peerDependencies": {
     "vtex.wish-list": "1.x",
-    "vtex.reviews-and-ratings": "2.x",
+    "vtex.reviews-and-ratings": "3.x",
     "vtex.availability-notify": "1.x",
     "vtexeurope.minicart-freeshipping-bar": "1.x",
     "vtex.store-locator": "0.x"
